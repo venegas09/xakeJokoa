@@ -22,5 +22,19 @@ ChessGame
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="F:ChessGame.Mugimendua.Aurrera">
+ <summary>
+ Número de posiciones a avanzar hacia adelante
+ Si se mueve hacia atrás el valor será negativo
+ El movimiento se realizará hacia arriba o haciaa abajo en función
+ del color de la pieza a la que se aplica
+ </summary>
+</member>
+<member name="F:ChessGame.Mugimendua.Eskubira">
+ <summary>
+ Número de posiciones a mover hacia la derecha
+ Si el movimiento es hacia la izquierda el valor será negativo
+ </summary>
+</member>
 </members>
 </doc>

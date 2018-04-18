@@ -95,6 +95,12 @@
     <Compile Include="Klaseak\XakePartida.vb" />
     <Compile Include="Klaseak\XakePieza.vb" />
     <Compile Include="Klaseak\XakeTaula.vb" />
+    <Compile Include="Tableroa.Designer.vb">
+      <DependentUpon>Tableroa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tableroa.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -118,11 +124,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Erronkak.resx">
+      <DependentUpon>Erronkak.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hasiera.resx">
       <DependentUpon>Hasiera.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jokatu.resx">
       <DependentUpon>Jokatu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tableroa.resx">
+      <DependentUpon>Tableroa.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
