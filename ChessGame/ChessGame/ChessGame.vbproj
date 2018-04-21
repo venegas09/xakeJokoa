@@ -91,16 +91,16 @@
     <Compile Include="Jokatu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Klaseak\Alfila.vb" />
+    <Compile Include="Klaseak\Dorrea.vb" />
+    <Compile Include="Klaseak\Erregea.vb" />
+    <Compile Include="Klaseak\Erregina.vb" />
     <Compile Include="Klaseak\Gelaxka.vb" />
+    <Compile Include="Klaseak\Peoia.vb" />
     <Compile Include="Klaseak\XakePartida.vb" />
     <Compile Include="Klaseak\XakePieza.vb" />
     <Compile Include="Klaseak\XakeTaula.vb" />
-    <Compile Include="Tableroa.Designer.vb">
-      <DependentUpon>Tableroa.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Tableroa.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="Klaseak\Zaldia.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -132,9 +132,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Jokatu.resx">
       <DependentUpon>Jokatu.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tableroa.resx">
-      <DependentUpon>Tableroa.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

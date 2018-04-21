@@ -17,8 +17,7 @@
         End If
     End Function
 
-    Protected Function MugimenduPosibleak(
-        mugimenduak As IEnumerable(Of Mugimendua)) As IEnumerable(Of Gelaxka)
+    Protected Function MugimenduPosibleak(mugimenduak As IEnumerable(Of Mugimendua)) As IEnumerable(Of Gelaxka)
         Dim taula As XakeTaula = BereGelaxka.Taula
         Dim gelaxkaPosibleak As New List(Of Gelaxka)
         For Each mugimendua As Mugimendua In mugimenduak
@@ -30,25 +29,25 @@
         Return gelaxkaPosibleak
     End Function
 
-    Protected IEnumerable<Gelaxka> MugimenduPosibleakNorabideekin(
-            int forwardIncrement, int rightIncrement)
-        {
-            Chessboard board = BoardSquare.Board;
+    Protected Function MugimenduPosibleakNorabidekin(aurreraJarraitu As Integer, eskubiraJarraitu As Integer) As IEnumerable(Of Gelaxka)
 
-            List<Square> squares = New List<Square>();
-            int forward = forwardIncrement;
-            int right = rightIncrement;
-            bool pieceOrEndFounded = False;
-            While (!pieceOrEndFounded)
-            {
-                Square destination = board.GetSquare(BoardSquare, New Movement { Forward = forward, ToRight = right });
-                If (CanBeDestination(destination))
-                    squares.Add(destination);
-                pieceOrEndFounded = (destination == null || destination.Piece != null);
-                forward += forwardIncrement;
-                right += rightIncrement;
-            }
-            Return squares;
-        }
+        Dim taula As XakeTaula = BereGelaxka.Taula
+        Dim gelaxkaPosibleak As New List(Of Gelaxka)
+        Dim Aurrera As Integer = aurreraJarraitu
+        Dim Eskubira As Integer = eskubiraJarraitu
+        Dim Jarraitu As Boolean = True
+
+        Do While Jarraitu
+            Dim helburuGelaxka As Gelaxka = taula.gelaxkaLortu(BereGelaxka,
+                    New Mugimendua() With {.Aurrera = Aurrera, .Eskubira = Eskubira})
+            If gelaxkaLibreDago(helburuGelaxka) Then
+                gelaxkaPosibleak.Add(helburuGelaxka)
+            End If
+            Jarraitu = (helburuGelaxka Is Nothing Or helburuGelaxka.Pieza IsNot Nothing)
+            Aurrera += aurreraJarraitu
+            Eskubira += eskubiraJarraitu
+        Loop
+        Return gelaxkaPosibleak
+    End Function
 
 End Class
