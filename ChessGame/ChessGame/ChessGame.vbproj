@@ -122,7 +122,9 @@
     <Compile Include="PartidaIrekierak.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserControl\Tableroa.Designer.vb" />
+    <Compile Include="UserControl\Tableroa.Designer.vb">
+      <DependentUpon>Tableroa.vb</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\Tableroa.vb">
       <SubType>UserControl</SubType>
     </Compile>
@@ -146,7 +148,9 @@
     <EmbeddedResource Include="PartidaIrekierak.resx">
       <DependentUpon>PartidaIrekierak.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl\Tableroa.resx" />
+    <EmbeddedResource Include="UserControl\Tableroa.resx">
+      <DependentUpon>Tableroa.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -160,6 +164,11 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="resources\gelaxkaTxuria.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\gelaxkaBeltza.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
