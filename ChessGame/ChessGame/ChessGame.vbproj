@@ -122,6 +122,10 @@
     <Compile Include="PartidaIrekierak.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UserControl\Tableroa.Designer.vb" />
+    <Compile Include="UserControl\Tableroa.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Erronkak.resx">
@@ -142,6 +146,7 @@
     <EmbeddedResource Include="PartidaIrekierak.resx">
       <DependentUpon>PartidaIrekierak.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Tableroa.resx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
