@@ -22,38 +22,6 @@ Partial Class Tableroa
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.a6 = New System.Windows.Forms.PictureBox()
-        Me.a7 = New System.Windows.Forms.PictureBox()
-        Me.a8 = New System.Windows.Forms.PictureBox()
-        Me.a5 = New System.Windows.Forms.PictureBox()
-        Me.a1 = New System.Windows.Forms.PictureBox()
-        Me.a2 = New System.Windows.Forms.PictureBox()
-        Me.a3 = New System.Windows.Forms.PictureBox()
-        Me.a4 = New System.Windows.Forms.PictureBox()
-        Me.b2 = New System.Windows.Forms.PictureBox()
-        Me.b1 = New System.Windows.Forms.PictureBox()
-        Me.b4 = New System.Windows.Forms.PictureBox()
-        Me.b3 = New System.Windows.Forms.PictureBox()
-        Me.b6 = New System.Windows.Forms.PictureBox()
-        Me.b5 = New System.Windows.Forms.PictureBox()
-        Me.b8 = New System.Windows.Forms.PictureBox()
-        Me.b7 = New System.Windows.Forms.PictureBox()
-        Me.d2 = New System.Windows.Forms.PictureBox()
-        Me.d1 = New System.Windows.Forms.PictureBox()
-        Me.d4 = New System.Windows.Forms.PictureBox()
-        Me.d3 = New System.Windows.Forms.PictureBox()
-        Me.d6 = New System.Windows.Forms.PictureBox()
-        Me.d5 = New System.Windows.Forms.PictureBox()
-        Me.d8 = New System.Windows.Forms.PictureBox()
-        Me.d7 = New System.Windows.Forms.PictureBox()
-        Me.c1 = New System.Windows.Forms.PictureBox()
-        Me.c2 = New System.Windows.Forms.PictureBox()
-        Me.c3 = New System.Windows.Forms.PictureBox()
-        Me.c4 = New System.Windows.Forms.PictureBox()
-        Me.c5 = New System.Windows.Forms.PictureBox()
-        Me.c6 = New System.Windows.Forms.PictureBox()
-        Me.c7 = New System.Windows.Forms.PictureBox()
-        Me.c8 = New System.Windows.Forms.PictureBox()
         Me.h2 = New System.Windows.Forms.PictureBox()
         Me.h1 = New System.Windows.Forms.PictureBox()
         Me.h4 = New System.Windows.Forms.PictureBox()
@@ -86,38 +54,38 @@ Partial Class Tableroa
         Me.e6 = New System.Windows.Forms.PictureBox()
         Me.e7 = New System.Windows.Forms.PictureBox()
         Me.e8 = New System.Windows.Forms.PictureBox()
-        CType(Me.a6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.a7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.a8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.a5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.a1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.a2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.a3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.a4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.b7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.d7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.c8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.d2 = New System.Windows.Forms.PictureBox()
+        Me.d1 = New System.Windows.Forms.PictureBox()
+        Me.d4 = New System.Windows.Forms.PictureBox()
+        Me.d3 = New System.Windows.Forms.PictureBox()
+        Me.d6 = New System.Windows.Forms.PictureBox()
+        Me.d5 = New System.Windows.Forms.PictureBox()
+        Me.d8 = New System.Windows.Forms.PictureBox()
+        Me.d7 = New System.Windows.Forms.PictureBox()
+        Me.c1 = New System.Windows.Forms.PictureBox()
+        Me.c2 = New System.Windows.Forms.PictureBox()
+        Me.c3 = New System.Windows.Forms.PictureBox()
+        Me.c4 = New System.Windows.Forms.PictureBox()
+        Me.c5 = New System.Windows.Forms.PictureBox()
+        Me.c6 = New System.Windows.Forms.PictureBox()
+        Me.c7 = New System.Windows.Forms.PictureBox()
+        Me.c8 = New System.Windows.Forms.PictureBox()
+        Me.b2 = New System.Windows.Forms.PictureBox()
+        Me.b1 = New System.Windows.Forms.PictureBox()
+        Me.b4 = New System.Windows.Forms.PictureBox()
+        Me.b3 = New System.Windows.Forms.PictureBox()
+        Me.b6 = New System.Windows.Forms.PictureBox()
+        Me.b5 = New System.Windows.Forms.PictureBox()
+        Me.b8 = New System.Windows.Forms.PictureBox()
+        Me.b7 = New System.Windows.Forms.PictureBox()
+        Me.a1 = New System.Windows.Forms.PictureBox()
+        Me.a2 = New System.Windows.Forms.PictureBox()
+        Me.a3 = New System.Windows.Forms.PictureBox()
+        Me.a4 = New System.Windows.Forms.PictureBox()
+        Me.a5 = New System.Windows.Forms.PictureBox()
+        Me.a6 = New System.Windows.Forms.PictureBox()
+        Me.a7 = New System.Windows.Forms.PictureBox()
+        Me.a8 = New System.Windows.Forms.PictureBox()
         CType(Me.h2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -150,335 +118,48 @@ Partial Class Tableroa
         CType(Me.e6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.e7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.e8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.d7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.c8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.b7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.a8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'a6
-        '
-        Me.a6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.a6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a6.Location = New System.Drawing.Point(3, 163)
-        Me.a6.Name = "a6"
-        Me.a6.Size = New System.Drawing.Size(80, 80)
-        Me.a6.TabIndex = 2
-        Me.a6.TabStop = False
-        '
-        'a7
-        '
-        Me.a7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.a7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a7.Location = New System.Drawing.Point(3, 83)
-        Me.a7.Name = "a7"
-        Me.a7.Size = New System.Drawing.Size(80, 80)
-        Me.a7.TabIndex = 1
-        Me.a7.TabStop = False
-        '
-        'a8
-        '
-        Me.a8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.a8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a8.Location = New System.Drawing.Point(3, 3)
-        Me.a8.Name = "a8"
-        Me.a8.Size = New System.Drawing.Size(80, 80)
-        Me.a8.TabIndex = 0
-        Me.a8.TabStop = False
-        '
-        'a5
-        '
-        Me.a5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.a5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a5.Location = New System.Drawing.Point(3, 243)
-        Me.a5.Name = "a5"
-        Me.a5.Size = New System.Drawing.Size(80, 80)
-        Me.a5.TabIndex = 3
-        Me.a5.TabStop = False
-        '
-        'a1
-        '
-        Me.a1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.a1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a1.Location = New System.Drawing.Point(3, 563)
-        Me.a1.Name = "a1"
-        Me.a1.Size = New System.Drawing.Size(80, 80)
-        Me.a1.TabIndex = 7
-        Me.a1.TabStop = False
-        '
-        'a2
-        '
-        Me.a2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.a2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a2.Location = New System.Drawing.Point(3, 483)
-        Me.a2.Name = "a2"
-        Me.a2.Size = New System.Drawing.Size(80, 80)
-        Me.a2.TabIndex = 6
-        Me.a2.TabStop = False
-        '
-        'a3
-        '
-        Me.a3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.a3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a3.Location = New System.Drawing.Point(3, 403)
-        Me.a3.Name = "a3"
-        Me.a3.Size = New System.Drawing.Size(80, 80)
-        Me.a3.TabIndex = 5
-        Me.a3.TabStop = False
-        '
-        'a4
-        '
-        Me.a4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.a4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.a4.Location = New System.Drawing.Point(3, 323)
-        Me.a4.Name = "a4"
-        Me.a4.Size = New System.Drawing.Size(80, 80)
-        Me.a4.TabIndex = 4
-        Me.a4.TabStop = False
-        '
-        'b2
-        '
-        Me.b2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.b2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b2.Location = New System.Drawing.Point(83, 483)
-        Me.b2.Name = "b2"
-        Me.b2.Size = New System.Drawing.Size(80, 80)
-        Me.b2.TabIndex = 15
-        Me.b2.TabStop = False
-        '
-        'b1
-        '
-        Me.b1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b1.Location = New System.Drawing.Point(83, 563)
-        Me.b1.Name = "b1"
-        Me.b1.Size = New System.Drawing.Size(80, 80)
-        Me.b1.TabIndex = 14
-        Me.b1.TabStop = False
-        '
-        'b4
-        '
-        Me.b4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.b4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b4.Location = New System.Drawing.Point(83, 323)
-        Me.b4.Name = "b4"
-        Me.b4.Size = New System.Drawing.Size(80, 80)
-        Me.b4.TabIndex = 13
-        Me.b4.TabStop = False
-        '
-        'b3
-        '
-        Me.b3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.b3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b3.Location = New System.Drawing.Point(83, 403)
-        Me.b3.Name = "b3"
-        Me.b3.Size = New System.Drawing.Size(80, 80)
-        Me.b3.TabIndex = 12
-        Me.b3.TabStop = False
-        '
-        'b6
-        '
-        Me.b6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.b6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b6.Location = New System.Drawing.Point(83, 163)
-        Me.b6.Name = "b6"
-        Me.b6.Size = New System.Drawing.Size(80, 80)
-        Me.b6.TabIndex = 11
-        Me.b6.TabStop = False
-        '
-        'b5
-        '
-        Me.b5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.b5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b5.Location = New System.Drawing.Point(83, 243)
-        Me.b5.Name = "b5"
-        Me.b5.Size = New System.Drawing.Size(80, 80)
-        Me.b5.TabIndex = 10
-        Me.b5.TabStop = False
-        '
-        'b8
-        '
-        Me.b8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.b8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b8.Location = New System.Drawing.Point(83, 3)
-        Me.b8.Name = "b8"
-        Me.b8.Size = New System.Drawing.Size(80, 80)
-        Me.b8.TabIndex = 9
-        Me.b8.TabStop = False
-        '
-        'b7
-        '
-        Me.b7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.b7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.b7.Location = New System.Drawing.Point(83, 83)
-        Me.b7.Name = "b7"
-        Me.b7.Size = New System.Drawing.Size(80, 80)
-        Me.b7.TabIndex = 8
-        Me.b7.TabStop = False
-        '
-        'd2
-        '
-        Me.d2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.d2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d2.Location = New System.Drawing.Point(243, 483)
-        Me.d2.Name = "d2"
-        Me.d2.Size = New System.Drawing.Size(80, 80)
-        Me.d2.TabIndex = 31
-        Me.d2.TabStop = False
-        '
-        'd1
-        '
-        Me.d1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.d1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d1.Location = New System.Drawing.Point(243, 563)
-        Me.d1.Name = "d1"
-        Me.d1.Size = New System.Drawing.Size(80, 80)
-        Me.d1.TabIndex = 30
-        Me.d1.TabStop = False
-        '
-        'd4
-        '
-        Me.d4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.d4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d4.Location = New System.Drawing.Point(243, 323)
-        Me.d4.Name = "d4"
-        Me.d4.Size = New System.Drawing.Size(80, 80)
-        Me.d4.TabIndex = 29
-        Me.d4.TabStop = False
-        '
-        'd3
-        '
-        Me.d3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.d3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d3.Location = New System.Drawing.Point(243, 403)
-        Me.d3.Name = "d3"
-        Me.d3.Size = New System.Drawing.Size(80, 80)
-        Me.d3.TabIndex = 28
-        Me.d3.TabStop = False
-        '
-        'd6
-        '
-        Me.d6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.d6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d6.Location = New System.Drawing.Point(243, 163)
-        Me.d6.Name = "d6"
-        Me.d6.Size = New System.Drawing.Size(80, 80)
-        Me.d6.TabIndex = 27
-        Me.d6.TabStop = False
-        '
-        'd5
-        '
-        Me.d5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.d5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d5.Location = New System.Drawing.Point(243, 243)
-        Me.d5.Name = "d5"
-        Me.d5.Size = New System.Drawing.Size(80, 80)
-        Me.d5.TabIndex = 26
-        Me.d5.TabStop = False
-        '
-        'd8
-        '
-        Me.d8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.d8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d8.Location = New System.Drawing.Point(243, 3)
-        Me.d8.Name = "d8"
-        Me.d8.Size = New System.Drawing.Size(80, 80)
-        Me.d8.TabIndex = 25
-        Me.d8.TabStop = False
-        '
-        'd7
-        '
-        Me.d7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.d7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.d7.Location = New System.Drawing.Point(243, 83)
-        Me.d7.Name = "d7"
-        Me.d7.Size = New System.Drawing.Size(80, 80)
-        Me.d7.TabIndex = 24
-        Me.d7.TabStop = False
-        '
-        'c1
-        '
-        Me.c1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.c1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c1.Location = New System.Drawing.Point(163, 563)
-        Me.c1.Name = "c1"
-        Me.c1.Size = New System.Drawing.Size(80, 80)
-        Me.c1.TabIndex = 23
-        Me.c1.TabStop = False
-        '
-        'c2
-        '
-        Me.c2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.c2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c2.Location = New System.Drawing.Point(163, 483)
-        Me.c2.Name = "c2"
-        Me.c2.Size = New System.Drawing.Size(80, 80)
-        Me.c2.TabIndex = 22
-        Me.c2.TabStop = False
-        '
-        'c3
-        '
-        Me.c3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.c3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c3.Location = New System.Drawing.Point(163, 403)
-        Me.c3.Name = "c3"
-        Me.c3.Size = New System.Drawing.Size(80, 80)
-        Me.c3.TabIndex = 21
-        Me.c3.TabStop = False
-        '
-        'c4
-        '
-        Me.c4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.c4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c4.Location = New System.Drawing.Point(163, 323)
-        Me.c4.Name = "c4"
-        Me.c4.Size = New System.Drawing.Size(80, 80)
-        Me.c4.TabIndex = 20
-        Me.c4.TabStop = False
-        '
-        'c5
-        '
-        Me.c5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.c5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c5.Location = New System.Drawing.Point(163, 243)
-        Me.c5.Name = "c5"
-        Me.c5.Size = New System.Drawing.Size(80, 80)
-        Me.c5.TabIndex = 19
-        Me.c5.TabStop = False
-        '
-        'c6
-        '
-        Me.c6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.c6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c6.Location = New System.Drawing.Point(163, 163)
-        Me.c6.Name = "c6"
-        Me.c6.Size = New System.Drawing.Size(80, 80)
-        Me.c6.TabIndex = 18
-        Me.c6.TabStop = False
-        '
-        'c7
-        '
-        Me.c7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
-        Me.c7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c7.Location = New System.Drawing.Point(163, 83)
-        Me.c7.Name = "c7"
-        Me.c7.Size = New System.Drawing.Size(80, 80)
-        Me.c7.TabIndex = 17
-        Me.c7.TabStop = False
-        '
-        'c8
-        '
-        Me.c8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
-        Me.c8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.c8.Location = New System.Drawing.Point(163, 3)
-        Me.c8.Name = "c8"
-        Me.c8.Size = New System.Drawing.Size(80, 80)
-        Me.c8.TabIndex = 16
-        Me.c8.TabStop = False
         '
         'h2
         '
         Me.h2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.h2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h2.Location = New System.Drawing.Point(563, 483)
+        Me.h2.Location = New System.Drawing.Point(560, 480)
         Me.h2.Name = "h2"
         Me.h2.Size = New System.Drawing.Size(80, 80)
+        Me.h2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h2.TabIndex = 63
         Me.h2.TabStop = False
         '
@@ -486,9 +167,10 @@ Partial Class Tableroa
         '
         Me.h1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.h1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h1.Location = New System.Drawing.Point(563, 563)
+        Me.h1.Location = New System.Drawing.Point(560, 560)
         Me.h1.Name = "h1"
         Me.h1.Size = New System.Drawing.Size(80, 80)
+        Me.h1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h1.TabIndex = 62
         Me.h1.TabStop = False
         '
@@ -496,9 +178,10 @@ Partial Class Tableroa
         '
         Me.h4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.h4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h4.Location = New System.Drawing.Point(563, 323)
+        Me.h4.Location = New System.Drawing.Point(560, 320)
         Me.h4.Name = "h4"
         Me.h4.Size = New System.Drawing.Size(80, 80)
+        Me.h4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h4.TabIndex = 61
         Me.h4.TabStop = False
         '
@@ -506,9 +189,10 @@ Partial Class Tableroa
         '
         Me.h3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.h3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h3.Location = New System.Drawing.Point(563, 403)
+        Me.h3.Location = New System.Drawing.Point(560, 400)
         Me.h3.Name = "h3"
         Me.h3.Size = New System.Drawing.Size(80, 80)
+        Me.h3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h3.TabIndex = 60
         Me.h3.TabStop = False
         '
@@ -516,9 +200,10 @@ Partial Class Tableroa
         '
         Me.h6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.h6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h6.Location = New System.Drawing.Point(563, 163)
+        Me.h6.Location = New System.Drawing.Point(560, 160)
         Me.h6.Name = "h6"
         Me.h6.Size = New System.Drawing.Size(80, 80)
+        Me.h6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h6.TabIndex = 59
         Me.h6.TabStop = False
         '
@@ -526,9 +211,10 @@ Partial Class Tableroa
         '
         Me.h5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.h5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h5.Location = New System.Drawing.Point(563, 243)
+        Me.h5.Location = New System.Drawing.Point(560, 240)
         Me.h5.Name = "h5"
         Me.h5.Size = New System.Drawing.Size(80, 80)
+        Me.h5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h5.TabIndex = 58
         Me.h5.TabStop = False
         '
@@ -536,9 +222,10 @@ Partial Class Tableroa
         '
         Me.h8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.h8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h8.Location = New System.Drawing.Point(563, 3)
+        Me.h8.Location = New System.Drawing.Point(560, 0)
         Me.h8.Name = "h8"
         Me.h8.Size = New System.Drawing.Size(80, 80)
+        Me.h8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h8.TabIndex = 57
         Me.h8.TabStop = False
         '
@@ -546,9 +233,10 @@ Partial Class Tableroa
         '
         Me.h7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.h7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.h7.Location = New System.Drawing.Point(563, 83)
+        Me.h7.Location = New System.Drawing.Point(560, 80)
         Me.h7.Name = "h7"
         Me.h7.Size = New System.Drawing.Size(80, 80)
+        Me.h7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.h7.TabIndex = 56
         Me.h7.TabStop = False
         '
@@ -556,9 +244,10 @@ Partial Class Tableroa
         '
         Me.g1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.g1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g1.Location = New System.Drawing.Point(483, 563)
+        Me.g1.Location = New System.Drawing.Point(480, 560)
         Me.g1.Name = "g1"
         Me.g1.Size = New System.Drawing.Size(80, 80)
+        Me.g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g1.TabIndex = 55
         Me.g1.TabStop = False
         '
@@ -566,9 +255,10 @@ Partial Class Tableroa
         '
         Me.g2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.g2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g2.Location = New System.Drawing.Point(483, 483)
+        Me.g2.Location = New System.Drawing.Point(480, 480)
         Me.g2.Name = "g2"
         Me.g2.Size = New System.Drawing.Size(80, 80)
+        Me.g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g2.TabIndex = 54
         Me.g2.TabStop = False
         '
@@ -576,9 +266,10 @@ Partial Class Tableroa
         '
         Me.g3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.g3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g3.Location = New System.Drawing.Point(483, 403)
+        Me.g3.Location = New System.Drawing.Point(480, 400)
         Me.g3.Name = "g3"
         Me.g3.Size = New System.Drawing.Size(80, 80)
+        Me.g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g3.TabIndex = 53
         Me.g3.TabStop = False
         '
@@ -586,9 +277,10 @@ Partial Class Tableroa
         '
         Me.g4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.g4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g4.Location = New System.Drawing.Point(483, 323)
+        Me.g4.Location = New System.Drawing.Point(480, 320)
         Me.g4.Name = "g4"
         Me.g4.Size = New System.Drawing.Size(80, 80)
+        Me.g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g4.TabIndex = 52
         Me.g4.TabStop = False
         '
@@ -596,9 +288,10 @@ Partial Class Tableroa
         '
         Me.g5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.g5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g5.Location = New System.Drawing.Point(483, 243)
+        Me.g5.Location = New System.Drawing.Point(480, 240)
         Me.g5.Name = "g5"
         Me.g5.Size = New System.Drawing.Size(80, 80)
+        Me.g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g5.TabIndex = 51
         Me.g5.TabStop = False
         '
@@ -606,9 +299,10 @@ Partial Class Tableroa
         '
         Me.g6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.g6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g6.Location = New System.Drawing.Point(483, 163)
+        Me.g6.Location = New System.Drawing.Point(480, 160)
         Me.g6.Name = "g6"
         Me.g6.Size = New System.Drawing.Size(80, 80)
+        Me.g6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g6.TabIndex = 50
         Me.g6.TabStop = False
         '
@@ -616,9 +310,10 @@ Partial Class Tableroa
         '
         Me.g7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.g7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g7.Location = New System.Drawing.Point(483, 83)
+        Me.g7.Location = New System.Drawing.Point(480, 80)
         Me.g7.Name = "g7"
         Me.g7.Size = New System.Drawing.Size(80, 80)
+        Me.g7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g7.TabIndex = 49
         Me.g7.TabStop = False
         '
@@ -626,9 +321,10 @@ Partial Class Tableroa
         '
         Me.g8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.g8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.g8.Location = New System.Drawing.Point(483, 3)
+        Me.g8.Location = New System.Drawing.Point(480, 0)
         Me.g8.Name = "g8"
         Me.g8.Size = New System.Drawing.Size(80, 80)
+        Me.g8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.g8.TabIndex = 48
         Me.g8.TabStop = False
         '
@@ -636,9 +332,10 @@ Partial Class Tableroa
         '
         Me.f2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.f2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f2.Location = New System.Drawing.Point(403, 483)
+        Me.f2.Location = New System.Drawing.Point(400, 480)
         Me.f2.Name = "f2"
         Me.f2.Size = New System.Drawing.Size(80, 80)
+        Me.f2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f2.TabIndex = 47
         Me.f2.TabStop = False
         '
@@ -646,9 +343,10 @@ Partial Class Tableroa
         '
         Me.f1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.f1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f1.Location = New System.Drawing.Point(403, 563)
+        Me.f1.Location = New System.Drawing.Point(400, 560)
         Me.f1.Name = "f1"
         Me.f1.Size = New System.Drawing.Size(80, 80)
+        Me.f1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f1.TabIndex = 46
         Me.f1.TabStop = False
         '
@@ -656,9 +354,10 @@ Partial Class Tableroa
         '
         Me.f4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.f4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f4.Location = New System.Drawing.Point(403, 323)
+        Me.f4.Location = New System.Drawing.Point(400, 320)
         Me.f4.Name = "f4"
         Me.f4.Size = New System.Drawing.Size(80, 80)
+        Me.f4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f4.TabIndex = 45
         Me.f4.TabStop = False
         '
@@ -666,9 +365,10 @@ Partial Class Tableroa
         '
         Me.f3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.f3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f3.Location = New System.Drawing.Point(403, 403)
+        Me.f3.Location = New System.Drawing.Point(400, 400)
         Me.f3.Name = "f3"
         Me.f3.Size = New System.Drawing.Size(80, 80)
+        Me.f3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f3.TabIndex = 44
         Me.f3.TabStop = False
         '
@@ -676,9 +376,10 @@ Partial Class Tableroa
         '
         Me.f6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.f6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f6.Location = New System.Drawing.Point(403, 163)
+        Me.f6.Location = New System.Drawing.Point(400, 160)
         Me.f6.Name = "f6"
         Me.f6.Size = New System.Drawing.Size(80, 80)
+        Me.f6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f6.TabIndex = 43
         Me.f6.TabStop = False
         '
@@ -686,9 +387,10 @@ Partial Class Tableroa
         '
         Me.f5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.f5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f5.Location = New System.Drawing.Point(403, 243)
+        Me.f5.Location = New System.Drawing.Point(400, 240)
         Me.f5.Name = "f5"
         Me.f5.Size = New System.Drawing.Size(80, 80)
+        Me.f5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f5.TabIndex = 42
         Me.f5.TabStop = False
         '
@@ -696,9 +398,10 @@ Partial Class Tableroa
         '
         Me.f8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.f8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f8.Location = New System.Drawing.Point(403, 3)
+        Me.f8.Location = New System.Drawing.Point(400, 0)
         Me.f8.Name = "f8"
         Me.f8.Size = New System.Drawing.Size(80, 80)
+        Me.f8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f8.TabIndex = 41
         Me.f8.TabStop = False
         '
@@ -706,9 +409,10 @@ Partial Class Tableroa
         '
         Me.f7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.f7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.f7.Location = New System.Drawing.Point(403, 83)
+        Me.f7.Location = New System.Drawing.Point(400, 80)
         Me.f7.Name = "f7"
         Me.f7.Size = New System.Drawing.Size(80, 80)
+        Me.f7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.f7.TabIndex = 40
         Me.f7.TabStop = False
         '
@@ -716,9 +420,10 @@ Partial Class Tableroa
         '
         Me.e1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.e1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e1.Location = New System.Drawing.Point(323, 563)
+        Me.e1.Location = New System.Drawing.Point(320, 560)
         Me.e1.Name = "e1"
         Me.e1.Size = New System.Drawing.Size(80, 80)
+        Me.e1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e1.TabIndex = 39
         Me.e1.TabStop = False
         '
@@ -726,9 +431,10 @@ Partial Class Tableroa
         '
         Me.e2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.e2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e2.Location = New System.Drawing.Point(323, 483)
+        Me.e2.Location = New System.Drawing.Point(320, 480)
         Me.e2.Name = "e2"
         Me.e2.Size = New System.Drawing.Size(80, 80)
+        Me.e2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e2.TabIndex = 38
         Me.e2.TabStop = False
         '
@@ -736,9 +442,10 @@ Partial Class Tableroa
         '
         Me.e3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.e3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e3.Location = New System.Drawing.Point(323, 403)
+        Me.e3.Location = New System.Drawing.Point(320, 400)
         Me.e3.Name = "e3"
         Me.e3.Size = New System.Drawing.Size(80, 80)
+        Me.e3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e3.TabIndex = 37
         Me.e3.TabStop = False
         '
@@ -746,9 +453,10 @@ Partial Class Tableroa
         '
         Me.e4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.e4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e4.Location = New System.Drawing.Point(323, 323)
+        Me.e4.Location = New System.Drawing.Point(320, 320)
         Me.e4.Name = "e4"
         Me.e4.Size = New System.Drawing.Size(80, 80)
+        Me.e4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e4.TabIndex = 36
         Me.e4.TabStop = False
         '
@@ -756,9 +464,10 @@ Partial Class Tableroa
         '
         Me.e5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.e5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e5.Location = New System.Drawing.Point(323, 243)
+        Me.e5.Location = New System.Drawing.Point(320, 240)
         Me.e5.Name = "e5"
         Me.e5.Size = New System.Drawing.Size(80, 80)
+        Me.e5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e5.TabIndex = 35
         Me.e5.TabStop = False
         '
@@ -766,9 +475,10 @@ Partial Class Tableroa
         '
         Me.e6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.e6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e6.Location = New System.Drawing.Point(323, 163)
+        Me.e6.Location = New System.Drawing.Point(320, 160)
         Me.e6.Name = "e6"
         Me.e6.Size = New System.Drawing.Size(80, 80)
+        Me.e6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e6.TabIndex = 34
         Me.e6.TabStop = False
         '
@@ -776,9 +486,10 @@ Partial Class Tableroa
         '
         Me.e7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
         Me.e7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e7.Location = New System.Drawing.Point(323, 83)
+        Me.e7.Location = New System.Drawing.Point(320, 80)
         Me.e7.Name = "e7"
         Me.e7.Size = New System.Drawing.Size(80, 80)
+        Me.e7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e7.TabIndex = 33
         Me.e7.TabStop = False
         '
@@ -786,11 +497,364 @@ Partial Class Tableroa
         '
         Me.e8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
         Me.e8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.e8.Location = New System.Drawing.Point(323, 3)
+        Me.e8.Location = New System.Drawing.Point(320, 0)
         Me.e8.Name = "e8"
         Me.e8.Size = New System.Drawing.Size(80, 80)
+        Me.e8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.e8.TabIndex = 32
         Me.e8.TabStop = False
+        '
+        'd2
+        '
+        Me.d2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.d2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d2.Location = New System.Drawing.Point(240, 480)
+        Me.d2.Name = "d2"
+        Me.d2.Size = New System.Drawing.Size(80, 80)
+        Me.d2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d2.TabIndex = 31
+        Me.d2.TabStop = False
+        '
+        'd1
+        '
+        Me.d1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.d1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d1.Location = New System.Drawing.Point(240, 560)
+        Me.d1.Name = "d1"
+        Me.d1.Size = New System.Drawing.Size(80, 80)
+        Me.d1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d1.TabIndex = 30
+        Me.d1.TabStop = False
+        '
+        'd4
+        '
+        Me.d4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.d4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d4.Location = New System.Drawing.Point(240, 320)
+        Me.d4.Name = "d4"
+        Me.d4.Size = New System.Drawing.Size(80, 80)
+        Me.d4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d4.TabIndex = 29
+        Me.d4.TabStop = False
+        '
+        'd3
+        '
+        Me.d3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.d3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d3.Location = New System.Drawing.Point(240, 400)
+        Me.d3.Name = "d3"
+        Me.d3.Size = New System.Drawing.Size(80, 80)
+        Me.d3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d3.TabIndex = 28
+        Me.d3.TabStop = False
+        '
+        'd6
+        '
+        Me.d6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.d6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d6.Location = New System.Drawing.Point(240, 160)
+        Me.d6.Name = "d6"
+        Me.d6.Size = New System.Drawing.Size(80, 80)
+        Me.d6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d6.TabIndex = 27
+        Me.d6.TabStop = False
+        '
+        'd5
+        '
+        Me.d5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.d5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d5.Location = New System.Drawing.Point(240, 240)
+        Me.d5.Name = "d5"
+        Me.d5.Size = New System.Drawing.Size(80, 80)
+        Me.d5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d5.TabIndex = 26
+        Me.d5.TabStop = False
+        '
+        'd8
+        '
+        Me.d8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.d8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d8.Location = New System.Drawing.Point(240, 0)
+        Me.d8.Name = "d8"
+        Me.d8.Size = New System.Drawing.Size(80, 80)
+        Me.d8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d8.TabIndex = 25
+        Me.d8.TabStop = False
+        '
+        'd7
+        '
+        Me.d7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.d7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.d7.Location = New System.Drawing.Point(240, 80)
+        Me.d7.Name = "d7"
+        Me.d7.Size = New System.Drawing.Size(80, 80)
+        Me.d7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.d7.TabIndex = 24
+        Me.d7.TabStop = False
+        '
+        'c1
+        '
+        Me.c1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.c1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c1.Location = New System.Drawing.Point(160, 560)
+        Me.c1.Name = "c1"
+        Me.c1.Size = New System.Drawing.Size(80, 80)
+        Me.c1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c1.TabIndex = 23
+        Me.c1.TabStop = False
+        '
+        'c2
+        '
+        Me.c2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.c2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c2.Location = New System.Drawing.Point(160, 480)
+        Me.c2.Name = "c2"
+        Me.c2.Size = New System.Drawing.Size(80, 80)
+        Me.c2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c2.TabIndex = 22
+        Me.c2.TabStop = False
+        '
+        'c3
+        '
+        Me.c3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.c3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c3.Location = New System.Drawing.Point(160, 400)
+        Me.c3.Name = "c3"
+        Me.c3.Size = New System.Drawing.Size(80, 80)
+        Me.c3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c3.TabIndex = 21
+        Me.c3.TabStop = False
+        '
+        'c4
+        '
+        Me.c4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.c4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c4.Location = New System.Drawing.Point(160, 320)
+        Me.c4.Name = "c4"
+        Me.c4.Size = New System.Drawing.Size(80, 80)
+        Me.c4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c4.TabIndex = 20
+        Me.c4.TabStop = False
+        '
+        'c5
+        '
+        Me.c5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.c5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c5.Location = New System.Drawing.Point(160, 240)
+        Me.c5.Name = "c5"
+        Me.c5.Size = New System.Drawing.Size(80, 80)
+        Me.c5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c5.TabIndex = 19
+        Me.c5.TabStop = False
+        '
+        'c6
+        '
+        Me.c6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.c6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c6.Location = New System.Drawing.Point(160, 160)
+        Me.c6.Name = "c6"
+        Me.c6.Size = New System.Drawing.Size(80, 80)
+        Me.c6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c6.TabIndex = 18
+        Me.c6.TabStop = False
+        '
+        'c7
+        '
+        Me.c7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.c7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c7.Location = New System.Drawing.Point(160, 80)
+        Me.c7.Name = "c7"
+        Me.c7.Size = New System.Drawing.Size(80, 80)
+        Me.c7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c7.TabIndex = 17
+        Me.c7.TabStop = False
+        '
+        'c8
+        '
+        Me.c8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.c8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.c8.Location = New System.Drawing.Point(160, 0)
+        Me.c8.Name = "c8"
+        Me.c8.Size = New System.Drawing.Size(80, 80)
+        Me.c8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.c8.TabIndex = 16
+        Me.c8.TabStop = False
+        '
+        'b2
+        '
+        Me.b2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.b2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b2.Location = New System.Drawing.Point(80, 480)
+        Me.b2.Name = "b2"
+        Me.b2.Size = New System.Drawing.Size(80, 80)
+        Me.b2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b2.TabIndex = 15
+        Me.b2.TabStop = False
+        '
+        'b1
+        '
+        Me.b1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b1.Location = New System.Drawing.Point(80, 560)
+        Me.b1.Name = "b1"
+        Me.b1.Size = New System.Drawing.Size(80, 80)
+        Me.b1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b1.TabIndex = 14
+        Me.b1.TabStop = False
+        '
+        'b4
+        '
+        Me.b4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.b4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b4.Location = New System.Drawing.Point(80, 320)
+        Me.b4.Name = "b4"
+        Me.b4.Size = New System.Drawing.Size(80, 80)
+        Me.b4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b4.TabIndex = 13
+        Me.b4.TabStop = False
+        '
+        'b3
+        '
+        Me.b3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.b3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b3.Location = New System.Drawing.Point(80, 400)
+        Me.b3.Name = "b3"
+        Me.b3.Size = New System.Drawing.Size(80, 80)
+        Me.b3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b3.TabIndex = 12
+        Me.b3.TabStop = False
+        '
+        'b6
+        '
+        Me.b6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.b6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b6.Location = New System.Drawing.Point(80, 160)
+        Me.b6.Name = "b6"
+        Me.b6.Size = New System.Drawing.Size(80, 80)
+        Me.b6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b6.TabIndex = 11
+        Me.b6.TabStop = False
+        '
+        'b5
+        '
+        Me.b5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.b5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b5.Location = New System.Drawing.Point(80, 240)
+        Me.b5.Name = "b5"
+        Me.b5.Size = New System.Drawing.Size(80, 80)
+        Me.b5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b5.TabIndex = 10
+        Me.b5.TabStop = False
+        '
+        'b8
+        '
+        Me.b8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.b8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b8.Location = New System.Drawing.Point(80, 0)
+        Me.b8.Name = "b8"
+        Me.b8.Size = New System.Drawing.Size(80, 80)
+        Me.b8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b8.TabIndex = 9
+        Me.b8.TabStop = False
+        '
+        'b7
+        '
+        Me.b7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.b7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.b7.Location = New System.Drawing.Point(80, 80)
+        Me.b7.Name = "b7"
+        Me.b7.Size = New System.Drawing.Size(80, 80)
+        Me.b7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.b7.TabIndex = 8
+        Me.b7.TabStop = False
+        '
+        'a1
+        '
+        Me.a1.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.a1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a1.Location = New System.Drawing.Point(0, 560)
+        Me.a1.Name = "a1"
+        Me.a1.Size = New System.Drawing.Size(80, 80)
+        Me.a1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a1.TabIndex = 7
+        Me.a1.TabStop = False
+        '
+        'a2
+        '
+        Me.a2.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.a2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a2.Location = New System.Drawing.Point(0, 480)
+        Me.a2.Name = "a2"
+        Me.a2.Size = New System.Drawing.Size(80, 80)
+        Me.a2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a2.TabIndex = 6
+        Me.a2.TabStop = False
+        '
+        'a3
+        '
+        Me.a3.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.a3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a3.Location = New System.Drawing.Point(0, 400)
+        Me.a3.Name = "a3"
+        Me.a3.Size = New System.Drawing.Size(80, 80)
+        Me.a3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a3.TabIndex = 5
+        Me.a3.TabStop = False
+        '
+        'a4
+        '
+        Me.a4.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.a4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a4.Location = New System.Drawing.Point(0, 320)
+        Me.a4.Name = "a4"
+        Me.a4.Size = New System.Drawing.Size(80, 80)
+        Me.a4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a4.TabIndex = 4
+        Me.a4.TabStop = False
+        '
+        'a5
+        '
+        Me.a5.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.a5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a5.Location = New System.Drawing.Point(0, 240)
+        Me.a5.Name = "a5"
+        Me.a5.Size = New System.Drawing.Size(80, 80)
+        Me.a5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a5.TabIndex = 3
+        Me.a5.TabStop = False
+        '
+        'a6
+        '
+        Me.a6.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.a6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a6.Location = New System.Drawing.Point(0, 160)
+        Me.a6.Name = "a6"
+        Me.a6.Size = New System.Drawing.Size(80, 80)
+        Me.a6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a6.TabIndex = 2
+        Me.a6.TabStop = False
+        '
+        'a7
+        '
+        Me.a7.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaBeltza
+        Me.a7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a7.Location = New System.Drawing.Point(0, 80)
+        Me.a7.Name = "a7"
+        Me.a7.Size = New System.Drawing.Size(80, 80)
+        Me.a7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a7.TabIndex = 1
+        Me.a7.TabStop = False
+        '
+        'a8
+        '
+        Me.a8.BackgroundImage = Global.ChessGame.My.Resources.Resources.gelaxkaTxuria
+        Me.a8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.a8.Location = New System.Drawing.Point(0, 0)
+        Me.a8.Name = "a8"
+        Me.a8.Size = New System.Drawing.Size(80, 80)
+        Me.a8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.a8.TabIndex = 0
+        Me.a8.TabStop = False
         '
         'Tableroa
         '
@@ -861,39 +925,7 @@ Partial Class Tableroa
         Me.Controls.Add(Me.a7)
         Me.Controls.Add(Me.a8)
         Me.Name = "Tableroa"
-        Me.Size = New System.Drawing.Size(717, 680)
-        CType(Me.a6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.a7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.a8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.a5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.a1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.a2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.a3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.a4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.b7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.d7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.c8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Size = New System.Drawing.Size(639, 640)
         CType(Me.h2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.h1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.h4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -926,6 +958,38 @@ Partial Class Tableroa
         CType(Me.e6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.e7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.e8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.d7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.c8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.b7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.a8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

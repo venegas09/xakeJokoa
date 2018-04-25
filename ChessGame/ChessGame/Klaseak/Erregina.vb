@@ -5,18 +5,18 @@
         MyBase.New(Kolorea)
     End Sub
 
-    Public Overrides Function HelburuGelaxkak() As IEnumerable(Of Gelaxka)
+    Public Overrides Function HelburuGelaxkak(BereGelaxka As Gelaxka) As List(Of Gelaxka)
         If BereGelaxka Is Nothing Then Return Nothing
 
         Dim gelaxkaPosibleak As New List(Of Gelaxka)
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(1, -1))
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(1, 0))
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(1, 1))
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(0, -1))
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(0, 1))
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(-1, -1))
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(-1, 0))
-        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(-1, 1))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, 1, -1))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, 1, 0))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, 1, 1))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, 0, -1))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, 0, 1))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, -1, -1))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, -1, 0))
+        gelaxkaPosibleak.AddRange(MugimenduPosibleakNorabidekin(BereGelaxka, -1, 1))
 
         Return gelaxkaPosibleak
 

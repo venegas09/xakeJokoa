@@ -63,6 +63,96 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Alfil_B() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Alfil_B", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Alfil_T() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Alfil_T", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property backgroundHasiera() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("backgroundHasiera", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Dorrea_B() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Dorrea_B", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Dorrea_T() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Dorrea_T", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Erregea_B() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Erregea_B", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Erregea_T() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Erregea_T", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Erregina_B() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Erregina_B", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Erregina_T() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Erregina_T", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property gelaxkaBeltza() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("gelaxkaBeltza", resourceCulture)
@@ -76,6 +166,76 @@ Namespace My.Resources
         Friend ReadOnly Property gelaxkaTxuria() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("gelaxkaTxuria", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Peoia_B() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Peoia_B", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Peoia_T() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Peoia_T", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property posibleB() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("posibleB", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property posibleT() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("posibleT", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property XakeTaula() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("XakeTaula", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Zaldia_B() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Zaldia_B", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Zaldia_T() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Zaldia_T", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

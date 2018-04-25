@@ -118,10 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gelaxkaTxuria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\gelaxkaTxuria.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="backgroundHasiera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\backgroundHasiera.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gelaxkaBeltza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\gelaxkaBeltza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gelaxkaTxuria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gelaxkaTxuria.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alfil_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Alfil_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alfil_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfil_t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dorrea_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dorrea_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dorrea_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dorrea_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Erregea_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Erregea_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Erregea_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Erregea_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Erregina_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Erregina_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Erregina_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Erregina_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peoia_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Peoia_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peoia_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Peoia_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XakeTaula" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\XakeTaula.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zaldia_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Zaldia_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zaldia_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Zaldia_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="posibleB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\posibleB.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="posibleT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\posibleT.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

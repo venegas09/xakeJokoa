@@ -1,4 +1,4 @@
-﻿Class Zaldia
+﻿Public Class Zaldia
     Inherits XakePieza
 
     Public Sub New(Kolorea As Koloreak)
@@ -16,8 +16,8 @@
             New Mugimendua() With {.Aurrera = -1, .Eskubira = 2}
         }
 
-    Public Overrides Function HelburuGelaxkak() As IEnumerable(Of Gelaxka)
+    Public Overrides Function HelburuGelaxkak(BereGelaxka As Gelaxka) As List(Of Gelaxka)
         If BereGelaxka Is Nothing Then Return Nothing
-        Return MugimenduPosibleak(mugimenduak)
+        Return MugimenduPosibleak(mugimenduak, BereGelaxka)
     End Function
 End Class

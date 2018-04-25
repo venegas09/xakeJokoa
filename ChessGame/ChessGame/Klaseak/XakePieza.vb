@@ -6,18 +6,19 @@
 
     Property Kolorea As Koloreak
 
-    Property BereGelaxka As Gelaxka
 
-    Public MustOverride Function HelburuGelaxkak() As IEnumerable(Of Gelaxka)
+    Public MustOverride Function HelburuGelaxkak(BereGelaxka As Gelaxka) As List(Of Gelaxka)
 
     Public Function gelaxkaLibreDago(helburuGelaxka As Gelaxka) As Boolean
         If helburuGelaxka Is Nothing Then Return False
-        If helburuGelaxka.Pieza Is Nothing Or helburuGelaxka.Pieza.Kolorea <> Kolorea Then
+        If helburuGelaxka.Pieza Is Nothing OrElse helburuGelaxka.Pieza.Kolorea <> Kolorea Then
             Return True
+        Else
+            Return False
         End If
     End Function
 
-    Protected Function MugimenduPosibleak(mugimenduak As IEnumerable(Of Mugimendua)) As IEnumerable(Of Gelaxka)
+    Protected Function MugimenduPosibleak(mugimenduak As IEnumerable(Of Mugimendua), BereGelaxka As Gelaxka) As List(Of Gelaxka)
         Dim taula As XakeTaula = BereGelaxka.Taula
         Dim gelaxkaPosibleak As New List(Of Gelaxka)
         For Each mugimendua As Mugimendua In mugimenduak
@@ -29,7 +30,7 @@
         Return gelaxkaPosibleak
     End Function
 
-    Protected Function MugimenduPosibleakNorabidekin(aurreraJarraitu As Integer, eskubiraJarraitu As Integer) As IEnumerable(Of Gelaxka)
+    Protected Function MugimenduPosibleakNorabidekin(BereGelaxka As Gelaxka, aurreraJarraitu As Integer, eskubiraJarraitu As Integer) As IEnumerable(Of Gelaxka)
 
         Dim taula As XakeTaula = BereGelaxka.Taula
         Dim gelaxkaPosibleak As New List(Of Gelaxka)

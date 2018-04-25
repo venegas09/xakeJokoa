@@ -13,6 +13,13 @@
     Property Taula As XakeTaula
     Property Ilara As Integer
     Property Zutabea As Integer
-    Property Pieza As XakePieza
-
+    Private XPieza As XakePieza
+    Public Property Pieza() As XakePieza
+        Get
+            Return XPieza
+        End Get
+        Set(ByVal value As XakePieza)
+            XPieza = value
+        End Set
+    End Property
 End Class

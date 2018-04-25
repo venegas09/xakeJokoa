@@ -170,5 +170,27 @@
   <ItemGroup>
     <None Include="resources\gelaxkaBeltza.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\backgroundHasiera.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Zaldia_T.png" />
+    <None Include="resources\Peoia_B.png" />
+    <None Include="resources\Erregina_T.png" />
+    <None Include="resources\Erregina_B.png" />
+    <None Include="resources\Erregea_T.png" />
+    <None Include="resources\Erregea_B.png" />
+    <None Include="resources\Dorrea_T.png" />
+    <None Include="resources\Dorrea_B.png" />
+    <None Include="resources\Alfil_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\Alfil_T.png" />
+    <Content Include="resources\Peoia_T.png" />
+    <None Include="resources\posibleB.JPG" />
+    <None Include="resources\posibleT.JPG" />
+    <Content Include="resources\XakeTaula.png" />
+    <Content Include="resources\Zaldia_B.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
