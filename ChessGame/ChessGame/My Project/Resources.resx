@@ -127,12 +127,6 @@
   <data name="gelaxkaTxuria" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\gelaxkaTxuria.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Alfil_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Alfil_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Alfil_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\alfil_t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Dorrea_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Dorrea_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -171,5 +165,17 @@
   </data>
   <data name="posibleT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\posibleT.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alfila_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfila_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alfila_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alfila_t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AukeratuB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\AukeratuB.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AukeratuT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\AukeratuT.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

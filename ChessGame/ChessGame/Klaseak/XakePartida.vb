@@ -5,6 +5,8 @@ End Enum
 Public Enum PartidarenEgoera
     TxurieiItxoiten
     BeltzeiItxoiten
+    TxurieiItxoitenXakean
+    BeltzeiItxoitenXakean
     TxuriakMugitzen
     BeltzakMugitzen
     TxuriakWin
@@ -103,7 +105,6 @@ Public Class XakePartida
             OrElse Egoera = PartidarenEgoera.BeltzeiItxoiten AndAlso squareToSelect.Pieza.Kolorea = Koloreak.Beltza Then
             SelectedSquare = squareToSelect
             _Egoera = IIf(_Egoera = PartidarenEgoera.TxurieiItxoiten, PartidarenEgoera.TxuriakMugitzen, PartidarenEgoera.BeltzakMugitzen)
-            Console.WriteLine(Egoera)
             Return True
         Else
             Return False
@@ -134,7 +135,6 @@ Public Class XakePartida
     ''' <returns>Las celdas que pueden ser destino del movimiento</returns>
     Public Function PosibleDestinationSquares(square As Gelaxka) As List(Of Gelaxka)
         Dim list As New List(Of Gelaxka)
-        Console.WriteLine(1234)
         list = square.Pieza.HelburuGelaxkak(square)
         Return list
     End Function
@@ -148,21 +148,13 @@ Public Class XakePartida
     ''' el movimiento</returns>
     Public Function MoveToSquare(squareToMove As Gelaxka) As Boolean
         If SelectedSquare Is Nothing Then Return False
+        Dim Enroke As Boolean
+        Enroke = Taula.Move(SelectedSquare, squareToMove)
+        SelectedSquare = Nothing
+        Egoera = IIf(Egoera = PartidarenEgoera.TxuriakMugitzen, PartidarenEgoera.BeltzeiItxoiten, PartidarenEgoera.TxurieiItxoiten)
+        Return Enroke
 
-        If Taula.Move(SelectedSquare, squareToMove) Then
-            SelectedSquare = Nothing
-            ' Una vez realizado el movimiento se comprueba si ha finalizado
-            ' (si hay ganador)
-            If Not CheckForWin() Then
-                Egoera = IIf(Egoera = PartidarenEgoera.TxuriakMugitzen _
-                          , PartidarenEgoera.BeltzeiItxoiten, PartidarenEgoera.TxurieiItxoiten)
-            End If
-            Return True
-        Else
-            Return False
-        End If
     End Function
-
 
 
     ''' <returns>true o false indicando si el juego ha finalizado</returns>

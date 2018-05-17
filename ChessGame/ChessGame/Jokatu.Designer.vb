@@ -88,6 +88,11 @@ Partial Class Jokatu
         Me.a6 = New System.Windows.Forms.PictureBox()
         Me.a7 = New System.Windows.Forms.PictureBox()
         Me.a8 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.rbTxuria = New System.Windows.Forms.RadioButton()
+        Me.rbBeltza = New System.Windows.Forms.RadioButton()
+        Me.txtTxanda = New System.Windows.Forms.Label()
+        Me.txtXake = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -153,6 +158,7 @@ Partial Class Jokatu
         CType(Me.a6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.a7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.a8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -167,7 +173,7 @@ Partial Class Jokatu
         '
         'btnHasi
         '
-        Me.btnHasi.Location = New System.Drawing.Point(812, 166)
+        Me.btnHasi.Location = New System.Drawing.Point(822, 261)
         Me.btnHasi.Name = "btnHasi"
         Me.btnHasi.Size = New System.Drawing.Size(160, 56)
         Me.btnHasi.TabIndex = 3
@@ -878,11 +884,64 @@ Partial Class Jokatu
         Me.a8.TabIndex = 64
         Me.a8.TabStop = False
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.rbTxuria)
+        Me.GroupBox1.Controls.Add(Me.rbBeltza)
+        Me.GroupBox1.Location = New System.Drawing.Point(806, 86)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(200, 85)
+        Me.GroupBox1.TabIndex = 128
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Kolorea"
+        '
+        'rbTxuria
+        '
+        Me.rbTxuria.AutoSize = True
+        Me.rbTxuria.Checked = True
+        Me.rbTxuria.Location = New System.Drawing.Point(33, 20)
+        Me.rbTxuria.Name = "rbTxuria"
+        Me.rbTxuria.Size = New System.Drawing.Size(60, 17)
+        Me.rbTxuria.TabIndex = 2
+        Me.rbTxuria.TabStop = True
+        Me.rbTxuria.Text = "Txuriak"
+        Me.rbTxuria.UseVisualStyleBackColor = True
+        '
+        'rbBeltza
+        '
+        Me.rbBeltza.AutoSize = True
+        Me.rbBeltza.Location = New System.Drawing.Point(33, 53)
+        Me.rbBeltza.Name = "rbBeltza"
+        Me.rbBeltza.Size = New System.Drawing.Size(54, 17)
+        Me.rbBeltza.TabIndex = 1
+        Me.rbBeltza.TabStop = True
+        Me.rbBeltza.Text = "Beltza"
+        Me.rbBeltza.UseVisualStyleBackColor = True
+        '
+        'txtTxanda
+        '
+        Me.txtTxanda.AutoSize = True
+        Me.txtTxanda.Location = New System.Drawing.Point(869, 204)
+        Me.txtTxanda.Name = "txtTxanda"
+        Me.txtTxanda.Size = New System.Drawing.Size(0, 13)
+        Me.txtTxanda.TabIndex = 129
+        '
+        'txtXake
+        '
+        Me.txtXake.AutoSize = True
+        Me.txtXake.Location = New System.Drawing.Point(833, 366)
+        Me.txtXake.Name = "txtXake"
+        Me.txtXake.Size = New System.Drawing.Size(0, 13)
+        Me.txtXake.TabIndex = 130
+        '
         'Jokatu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1053, 738)
+        Me.Controls.Add(Me.txtXake)
+        Me.Controls.Add(Me.txtTxanda)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.h2)
         Me.Controls.Add(Me.h1)
         Me.Controls.Add(Me.h4)
@@ -1016,7 +1075,10 @@ Partial Class Jokatu
         CType(Me.a6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.a7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.a8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents PictureBox1 As PictureBox
@@ -1085,4 +1147,9 @@ Partial Class Jokatu
     Friend WithEvents a6 As PictureBox
     Friend WithEvents a7 As PictureBox
     Friend WithEvents a8 As PictureBox
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents rbBeltza As RadioButton
+    Friend WithEvents rbTxuria As RadioButton
+    Friend WithEvents txtTxanda As Label
+    Friend WithEvents txtXake As Label
 End Class

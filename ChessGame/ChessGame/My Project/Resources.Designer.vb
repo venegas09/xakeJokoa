@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Alfil_B() As System.Drawing.Bitmap
+        Friend ReadOnly Property Alfila_B() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Alfil_B", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Alfila_B", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -73,9 +73,29 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Alfil_T() As System.Drawing.Bitmap
+        Friend ReadOnly Property Alfila_T() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Alfil_T", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Alfila_T", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property AukeratuB() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("AukeratuB", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property AukeratuT() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("AukeratuT", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

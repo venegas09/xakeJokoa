@@ -22,12 +22,22 @@ ChessGame
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
-<member name="P:ChessGame.My.Resources.Resources.Alfil_B">
+<member name="P:ChessGame.My.Resources.Resources.Alfila_B">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ChessGame.My.Resources.Resources.Alfil_T">
+<member name="P:ChessGame.My.Resources.Resources.Alfila_T">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ChessGame.My.Resources.Resources.AukeratuB">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ChessGame.My.Resources.Resources.AukeratuT">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

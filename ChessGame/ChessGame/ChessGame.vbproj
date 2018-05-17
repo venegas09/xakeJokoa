@@ -141,9 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PartidaIrekierak.resx">
       <DependentUpon>PartidaIrekierak.vb</DependentUpon>
@@ -182,15 +182,20 @@
     <None Include="resources\Erregea_B.png" />
     <None Include="resources\Dorrea_T.png" />
     <None Include="resources\Dorrea_B.png" />
-    <None Include="resources\Alfil_B.png" />
+    <None Include="resources\Alfila_B.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="resources\Alfil_T.png" />
+    <Content Include="resources\Alfila_T.png" />
+    <None Include="resources\AukeratuT.JPG" />
+    <None Include="resources\AukeratuB.JPG" />
     <Content Include="resources\Peoia_T.png" />
     <None Include="resources\posibleB.JPG" />
     <None Include="resources\posibleT.JPG" />
     <Content Include="resources\XakeTaula.png" />
     <Content Include="resources\Zaldia_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Erroreak\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
