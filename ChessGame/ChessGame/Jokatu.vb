@@ -7,6 +7,8 @@
     End Sub
 
     Private Sub btnHasi_Click(sender As Object, e As EventArgs) Handles btnHasi.Click
+        Garbitu()
+        LaukiakGarbitu()
         If rbTxuria.Checked Then
             Partida.Start(Koloreak.Txuria)
             Hasieratu(Koloreak.Txuria)
@@ -16,6 +18,75 @@
         End If
         txtTxanda.Text = "Txurien txanda"
         btnHasi.Enabled = False
+        btnTablas.Enabled = True
+        btnErrenditu.Enabled = True
+    End Sub
+    Public Sub Garbitu()
+        a1.Image = Nothing
+        b1.Image = Nothing
+        c1.Image = Nothing
+        d1.Image = Nothing
+        e1.Image = Nothing
+        h1.Image = Nothing
+        g1.Image = Nothing
+        f1.Image = Nothing
+        a2.Image = Nothing
+        b2.Image = Nothing
+        c2.Image = Nothing
+        d2.Image = Nothing
+        e2.Image = Nothing
+        f2.Image = Nothing
+        g2.Image = Nothing
+        h2.Image = Nothing
+        a3.Image = Nothing
+        b4.Image = Nothing
+        c3.Image = Nothing
+        d3.Image = Nothing
+        e3.Image = Nothing
+        h3.Image = Nothing
+        g3.Image = Nothing
+        f3.Image = Nothing
+        a4.Image = Nothing
+        b4.Image = Nothing
+        c4.Image = Nothing
+        d4.Image = Nothing
+        e4.Image = Nothing
+        f4.Image = Nothing
+        g4.Image = Nothing
+        h4.Image = Nothing
+        a5.Image = Nothing
+        b5.Image = Nothing
+        c5.Image = Nothing
+        d5.Image = Nothing
+        e5.Image = Nothing
+        h5.Image = Nothing
+        g5.Image = Nothing
+        f5.Image = Nothing
+        a6.Image = Nothing
+        b6.Image = Nothing
+        c6.Image = Nothing
+        d6.Image = Nothing
+        e6.Image = Nothing
+        f6.Image = Nothing
+        g6.Image = Nothing
+        h6.Image = Nothing
+        a8.Image = Nothing
+        b8.Image = Nothing
+        c8.Image = Nothing
+        d8.Image = Nothing
+        e8.Image = Nothing
+        h8.Image = Nothing
+        g8.Image = Nothing
+        f8.Image = Nothing
+        a7.Image = Nothing
+        b7.Image = Nothing
+        c7.Image = Nothing
+        d7.Image = Nothing
+        e7.Image = Nothing
+        f7.Image = Nothing
+        g7.Image = Nothing
+        h7.Image = Nothing
+
     End Sub
     Public Sub Hasieratu(Kolorea As Koloreak)
         If Kolorea = Koloreak.Txuria Then
@@ -495,6 +566,210 @@
             End If
         Next
     End Sub
+    Public Sub LaukiakGarbitu()
+        For Each laukia As Gelaxka In Partida.Taula
+            '1 ILARA
+            If laukia.Ilara = 1 And laukia.Zutabea = 1 Then
+                a1.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 1 And laukia.Zutabea = 2 Then
+                b1.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 1 And laukia.Zutabea = 3 Then
+                c1.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 1 And laukia.Zutabea = 4 Then
+                d1.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 1 And laukia.Zutabea = 5 Then
+                e1.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 1 And laukia.Zutabea = 6 Then
+                f1.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 1 And laukia.Zutabea = 7 Then
+                g1.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 1 And laukia.Zutabea = 8 Then
+                h1.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            '2 ILARA
+            If laukia.Ilara = 2 And laukia.Zutabea = 1 Then
+                a2.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 2 And laukia.Zutabea = 2 Then
+                b2.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 2 And laukia.Zutabea = 3 Then
+                c2.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 2 And laukia.Zutabea = 4 Then
+                d2.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 2 And laukia.Zutabea = 5 Then
+                e2.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 2 And laukia.Zutabea = 6 Then
+                f2.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 2 And laukia.Zutabea = 7 Then
+                g2.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 2 And laukia.Zutabea = 8 Then
+                h2.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            '3 ILARA
+            If laukia.Ilara = 3 And laukia.Zutabea = 1 Then
+                a3.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 3 And laukia.Zutabea = 2 Then
+                b3.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 3 And laukia.Zutabea = 3 Then
+                c3.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 3 And laukia.Zutabea = 4 Then
+                d3.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 3 And laukia.Zutabea = 5 Then
+                e3.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 3 And laukia.Zutabea = 6 Then
+                f3.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 3 And laukia.Zutabea = 7 Then
+                g3.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 3 And laukia.Zutabea = 8 Then
+                h3.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            '4ILARA
+            If laukia.Ilara = 4 And laukia.Zutabea = 1 Then
+                a4.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 4 And laukia.Zutabea = 2 Then
+                b4.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 4 And laukia.Zutabea = 3 Then
+                c4.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 4 And laukia.Zutabea = 4 Then
+                d4.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 4 And laukia.Zutabea = 5 Then
+                e4.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 4 And laukia.Zutabea = 6 Then
+                f4.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 4 And laukia.Zutabea = 7 Then
+                g4.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 4 And laukia.Zutabea = 8 Then
+                h4.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            '5 ILARA
+            If laukia.Ilara = 5 And laukia.Zutabea = 1 Then
+                a5.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 5 And laukia.Zutabea = 2 Then
+                b5.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 5 And laukia.Zutabea = 3 Then
+                c5.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 5 And laukia.Zutabea = 4 Then
+                d5.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 5 And laukia.Zutabea = 5 Then
+                e5.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 5 And laukia.Zutabea = 6 Then
+                f5.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 5 And laukia.Zutabea = 7 Then
+                g5.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 5 And laukia.Zutabea = 8 Then
+                h5.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            '6 ILARA
+            If laukia.Ilara = 6 And laukia.Zutabea = 1 Then
+                a6.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 6 And laukia.Zutabea = 2 Then
+                b6.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 6 And laukia.Zutabea = 3 Then
+                c6.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 6 And laukia.Zutabea = 4 Then
+                d6.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 6 And laukia.Zutabea = 5 Then
+                e6.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 6 And laukia.Zutabea = 6 Then
+                f6.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 6 And laukia.Zutabea = 7 Then
+                g6.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 6 And laukia.Zutabea = 8 Then
+                h6.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            '7 ILARA
+            If laukia.Ilara = 7 And laukia.Zutabea = 1 Then
+                a7.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 7 And laukia.Zutabea = 2 Then
+                b7.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 7 And laukia.Zutabea = 3 Then
+                c7.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 7 And laukia.Zutabea = 4 Then
+                d7.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 7 And laukia.Zutabea = 5 Then
+                e7.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 7 And laukia.Zutabea = 6 Then
+                f7.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 7 And laukia.Zutabea = 7 Then
+                g7.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 7 And laukia.Zutabea = 8 Then
+                h7.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            '8 ILARA
+            If laukia.Ilara = 8 And laukia.Zutabea = 1 Then
+                a8.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 8 And laukia.Zutabea = 2 Then
+                b8.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 8 And laukia.Zutabea = 3 Then
+                c8.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 8 And laukia.Zutabea = 4 Then
+                d8.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 8 And laukia.Zutabea = 5 Then
+                e8.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 8 And laukia.Zutabea = 6 Then
+                f8.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+            If laukia.Ilara = 8 And laukia.Zutabea = 7 Then
+                g8.BackgroundImage = My.Resources.gelaxkaTxuria
+            End If
+            If laukia.Ilara = 8 And laukia.Zutabea = 8 Then
+                h8.BackgroundImage = My.Resources.gelaxkaBeltza
+            End If
+        Next
+    End Sub
     Public Sub DorreaJarri(laukia As Gelaxka)
         If laukia.Ilara = 1 And laukia.Zutabea = 3 Then
             Dim irudia As String = String.Format("{0}_{1}", "Dorrea", IIf([Enum].GetName(GetType(Koloreak), laukia.Pieza.Kolorea) = [Enum].GetName(GetType(Koloreak), Koloreak.Txuria), "T", "B"))
@@ -583,18 +858,20 @@
             End If
             If aukeratutakoGelaxka.Zutabea = 6 Then
                 DorreaJarri(taula.gelaxkaLortu(8, 5))
-                DorreaKendu(8, 1)
+                DorreaKendu(8, 8)
             End If
             If aukeratutakoGelaxka.Zutabea = 7 Then
                 DorreaJarri(taula.gelaxkaLortu(8, 6))
-                DorreaKendu(8, 1)
+                DorreaKendu(8, 8)
             End If
         End If
     End Sub
     Public Sub Tratatu(i As Integer, z As Integer, sender As Object)
         Dim aukeratutakoGelaxka As Gelaxka = Partida.Taula.gelaxkaLortu(i, z)
-        Console.WriteLine(aukeratutakoGelaxka.Ilara)
-        Console.WriteLine(aukeratutakoGelaxka.Zutabea)
+        If Partida.Egoera = PartidarenEgoera.TxuriakWin Or Partida.Egoera = PartidarenEgoera.BeltzakWin Or Partida.Egoera = PartidarenEgoera.Berdinketa Then
+            txtTxanda.Text = "Hasi partida berri bat"
+            btnHasi.Enabled = True
+        End If
         If Partida.Egoera = PartidarenEgoera.TxurieiItxoiten Or Partida.Egoera = PartidarenEgoera.BeltzeiItxoiten Then
             If Partida.GetSquaresThatCanBeSelected().Contains(aukeratutakoGelaxka) Then
                 Partida.SelectPiece(aukeratutakoGelaxka)
@@ -604,40 +881,63 @@
                 Marraztu()
             End If
         Else
-            If MarraztutakoGelaxkak.Contains(aukeratutakoGelaxka) Then
-                EzabatuAukeratutakoGelaxka()
-                MarrazkiaKendu()
-                If (Partida.SelectedSquare.Pieza.GetType().Name = "Peoia" And (aukeratutakoGelaxka.Ilara = 1 Or aukeratutakoGelaxka.Ilara = 8)) Then
-                    Partida.SelectedSquare.Pieza = New Erregina(Partida.SelectedSquare.Pieza.Kolorea)
-                End If
-                Dim Enroke As Boolean
-                Enroke = Partida.MoveToSquare(aukeratutakoGelaxka)
-                If Enroke Then
-                    DorreaMugitu(aukeratutakoGelaxka)
-                End If
-                PiezaMugitu(sender, aukeratutakoGelaxka)
-                If Partida.Taula.XakeaDa(Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea) Then
-                    txtXake.Text = "Xake!"
-                Else
-                    txtXake.Text = "Ezer"
-                End If
-                'Jakea dago?
-                'Zeinek ematen du jaque?
-                'Jake mate da?
-
-                If Partida.Egoera = PartidarenEgoera.BeltzeiItxoiten Then
-                    txtTxanda.Text = "Beltzen txanda da"
-                Else
-                    txtTxanda.Text = "Txurien txanda da"
-                End If
+            If Partida.Egoera = PartidarenEgoera.TxuriakWin Or Partida.Egoera = PartidarenEgoera.BeltzakWin Or Partida.Egoera = PartidarenEgoera.Berdinketa Then
+                txtTxanda.Text = "Hasi partida berri bat"
+                btnHasi.Enabled = True
             Else
-                EzabatuAukeratutakoGelaxka()
-                MarrazkiaKendu()
-                MarraztutakoGelaxkak.Clear()
-                Partida.UnselectPiece()
+                If MarraztutakoGelaxkak.Contains(aukeratutakoGelaxka) Then
+                    EzabatuAukeratutakoGelaxka()
+                    MarrazkiaKendu()
+                    If (Partida.SelectedSquare.Pieza.GetType().Name = "Peoia" And (aukeratutakoGelaxka.Ilara = 1 Or aukeratutakoGelaxka.Ilara = 8)) Then
+                        Partida.SelectedSquare.Pieza = New Erregina(Partida.SelectedSquare.Pieza.Kolorea)
+                    End If
+                    Dim Enroke As Boolean
+                    Enroke = Partida.MoveToSquare(aukeratutakoGelaxka)
+                    If Enroke Then
+                        DorreaMugitu(aukeratutakoGelaxka)
+                    End If
+                    PiezaMugitu(sender, aukeratutakoGelaxka)
+                    If Partida.Taula.XakeaDa(Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea) Then
+                        txtTxanda.Text = "Xake"
+                        If Partida.Taula.MugimendurikEz(Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea) Then
+                            btnHasi.Enabled = True
+                            If Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea = Koloreak.Txuria Then
+                                Partida.Egoera = PartidarenEgoera.TxuriakWin
+                                txtTxanda.Text = "Txuriak Irabazi du"
+                                btnTablas.Enabled = False
+                            Else
+                                Partida.Egoera = PartidarenEgoera.BeltzakWin
+                                txtTxanda.Text = "Beltzak irabazi du"
+                                btnTablas.Enabled = False
+                            End If
+                            'Else
+                            ' If Partida.Egoera = PartidarenEgoera.BeltzeiItxoiten Then
+                            'txtTxanda.Text = "Beltzen txanda da"
+                            'Else
+                            'txtTxanda.Text = "Txurien txanda da"
+                            'End If
+                        End If
+                    Else
+                        If Partida.Taula.MugimendurikEz(Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea) Then
+                            Partida.Egoera = PartidarenEgoera.Berdinketa
+                            txtTxanda.Text = "Erregea itota dago"
+                            'Else
+                            ' If Partida.Egoera = PartidarenEgoera.BeltzeiItxoiten Then
+                            'txtTxanda.Text = "Beltzen txanda da"
+                            'Else
+                            'txtTxanda.Text = "Txurien txanda da"
+                            'End If
+                        End If
+                    End If
+
+                Else
+                    EzabatuAukeratutakoGelaxka()
+                    MarrazkiaKendu()
+                    MarraztutakoGelaxkak.Clear()
+                    Partida.UnselectPiece()
+                End If
             End If
         End If
-
     End Sub
     Public Sub MarraztuAukeratutakoGelaxka()
         If ((Partida.SelectedSquare.Ilara + Partida.SelectedSquare.Zutabea) Mod 2 = 0) Then
@@ -909,5 +1209,27 @@
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles txtTxanda.Click
 
+    End Sub
+    Private Sub txtTablas_Click(sender As Object, e As EventArgs) Handles btnTablas.Click
+        Partida.Egoera = PartidarenEgoera.Berdinketa
+        btnHasi.Enabled = True
+        txtTxanda.Text = "Tablas adostu da"
+        btnTablas.Enabled = False
+        btnErrenditu.Enabled = False
+    End Sub
+
+    Private Sub btnErrenditu_Click(sender As Object, e As EventArgs) Handles btnErrenditu.Click
+
+        btnHasi.Enabled = True
+        If Partida.Egoera = PartidarenEgoera.BeltzakMugitzen Or Partida.Egoera = PartidarenEgoera.BeltzeiItxoiten Then
+            txtTxanda.Text = "Txuriek irabazi dute"
+            Partida.Egoera = PartidarenEgoera.TxuriakWin
+
+        Else
+            txtTxanda.Text = "Beltzek irabazi dute"
+            Partida.Egoera = PartidarenEgoera.BeltzakWin
+        End If
+        btnTablas.Enabled = False
+        btnErrenditu.Enabled = False
     End Sub
 End Class

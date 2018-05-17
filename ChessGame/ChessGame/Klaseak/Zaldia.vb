@@ -20,6 +20,7 @@
         If BereGelaxka Is Nothing Then Return Nothing
         Return MugimenduPosibleak(mugimenduak, BereGelaxka)
     End Function
+
     Public Overrides Function Erasotutakoak(BereGelaxka As Gelaxka) As List(Of Gelaxka)
         If BereGelaxka Is Nothing Then Return Nothing
         Return ErasoPosibleak(mugimenduak, BereGelaxka)

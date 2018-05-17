@@ -41,7 +41,24 @@
         For Each mugimendua As Mugimendua In mugimenduak
             Dim helburuGelaxka As Gelaxka = taula.gelaxkaLortu(BereGelaxka, mugimendua)
             If gelaxkaLibreDago(helburuGelaxka) Then
-                gelaxkaPosibleak.Add(helburuGelaxka)
+                Dim gorde
+                If helburuGelaxka.Pieza IsNot Nothing Then
+                    gorde = helburuGelaxka.Pieza
+                End If
+                helburuGelaxka.Pieza = BereGelaxka.Pieza
+                BereGelaxka.Pieza = Nothing
+                Console.WriteLine(BereGelaxka.Taula.XakeaDa(helburuGelaxka.Pieza.Kolorea))
+                If Not BereGelaxka.Taula.XakeaDaPiezaKentzean(helburuGelaxka.Pieza.Kolorea) Then
+                    Console.WriteLine(BereGelaxka.Taula.XakeaDa(helburuGelaxka.Pieza.Kolorea))
+                    gelaxkaPosibleak.Add(helburuGelaxka)
+                End If
+                BereGelaxka.Pieza = helburuGelaxka.Pieza
+                If gorde IsNot Nothing Then
+                    helburuGelaxka.Pieza = gorde
+                Else
+                    helburuGelaxka.Pieza = Nothing
+                End If
+                gorde = Nothing
             End If
         Next
         Return gelaxkaPosibleak
@@ -60,7 +77,23 @@
         Do While Not Jarraitu
             helburuGelaxka = taula.gelaxkaLortu(BereGelaxka, New Mugimendua() With {.Aurrera = Aurrera, .Eskubira = Eskubira})
             If gelaxkaLibreDago(helburuGelaxka) Then
-                gelaxkaPosibleak.Add(helburuGelaxka)
+                Dim gorde
+                If helburuGelaxka.Pieza IsNot Nothing Then
+                    gorde = helburuGelaxka.Pieza
+                End If
+                helburuGelaxka.Pieza = BereGelaxka.Pieza
+                BereGelaxka.Pieza = Nothing
+                Console.WriteLine(BereGelaxka.Taula.XakeaDa(helburuGelaxka.Pieza.Kolorea))
+                If Not BereGelaxka.Taula.XakeaDaPiezaKentzean(helburuGelaxka.Pieza.Kolorea) Then
+                    Console.WriteLine(BereGelaxka.Taula.XakeaDa(helburuGelaxka.Pieza.Kolorea))
+                    gelaxkaPosibleak.Add(helburuGelaxka)
+                End If
+                BereGelaxka.Pieza = helburuGelaxka.Pieza
+                If gorde IsNot Nothing Then
+                    helburuGelaxka.Pieza = gorde
+                Else
+                    helburuGelaxka.Pieza = Nothing
+                End If
             End If
             Jarraitu = helburuGelaxka Is Nothing OrElse helburuGelaxka.Pieza IsNot Nothing
             Aurrera += aurreraJarraitu

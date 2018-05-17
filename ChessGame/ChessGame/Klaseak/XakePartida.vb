@@ -5,12 +5,11 @@ End Enum
 Public Enum PartidarenEgoera
     TxurieiItxoiten
     BeltzeiItxoiten
-    TxurieiItxoitenXakean
-    BeltzeiItxoitenXakean
     TxuriakMugitzen
     BeltzakMugitzen
     TxuriakWin
     BeltzakWin
+    Berdinketa
 End Enum
 Public Structure Mugimendua
     ''' <summary>
@@ -48,7 +47,7 @@ Public Class XakePartida
         Get
             Return _Egoera
         End Get
-        Private Set(ByVal value As PartidarenEgoera)
+        Set(ByVal value As PartidarenEgoera)
             _Egoera = value
         End Set
     End Property

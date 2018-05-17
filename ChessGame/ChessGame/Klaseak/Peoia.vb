@@ -14,32 +14,88 @@
         Dim gelaxkaPosibleak As New List(Of Gelaxka)
         'Aurrera bat mugitu
         Dim gelaxkaHelburuak = taula.gelaxkaLortu(BereGelaxka, New Mugimendua With {.Aurrera = 1, .Eskubira = 0})
-        If (gelaxkaHelburuak IsNot Nothing And gelaxkaHelburuak.Pieza Is Nothing) Then
-            gelaxkaPosibleak.Add(gelaxkaHelburuak)
+        If (gelaxkaHelburuak IsNot Nothing AndAlso gelaxkaHelburuak.Pieza Is Nothing) Then
+            Dim gorde
+            If gelaxkaHelburuak.Pieza IsNot Nothing Then
+                gorde = gelaxkaHelburuak.Pieza
+            End If
+            gelaxkaHelburuak.Pieza = BereGelaxka.Pieza
+            BereGelaxka.Pieza = Nothing
+            If Not BereGelaxka.Taula.XakeaDaPiezaKentzean(gelaxkaHelburuak.Pieza.Kolorea) Then
+                gelaxkaPosibleak.Add(gelaxkaHelburuak)
+            End If
+            BereGelaxka.Pieza = gelaxkaHelburuak.Pieza
+            If gorde IsNot Nothing Then
+                gelaxkaHelburuak.Pieza = gorde
+            Else
+                gelaxkaHelburuak.Pieza = Nothing
+            End If
+            gorde = Nothing
             'Hasierako posizioan baldin badago, aurrera bi mugitu.
             If HasieraPosizioan Then
                 gelaxkaHelburuak =
                     taula.gelaxkaLortu(BereGelaxka, New Mugimendua With {.Aurrera = 2, .Eskubira = 0})
                 If (gelaxkaHelburuak IsNot Nothing And gelaxkaHelburuak.Pieza Is Nothing) Then
-                    gelaxkaPosibleak.Add(gelaxkaHelburuak)
+                    If gelaxkaHelburuak.Pieza IsNot Nothing Then
+                        gorde = gelaxkaHelburuak.Pieza
+                    End If
+                    gelaxkaHelburuak.Pieza = BereGelaxka.Pieza
+                    BereGelaxka.Pieza = Nothing
+                    If Not BereGelaxka.Taula.XakeaDaPiezaKentzean(gelaxkaHelburuak.Pieza.Kolorea) Then
+                        gelaxkaPosibleak.Add(gelaxkaHelburuak)
+                    End If
+                    BereGelaxka.Pieza = gelaxkaHelburuak.Pieza
+                    If gorde IsNot Nothing Then
+                        gelaxkaHelburuak.Pieza = gorde
+                    Else
+                        gelaxkaHelburuak.Pieza = Nothing
+                    End If
+                    gorde = Nothing
                 End If
             End If
         End If
-        'Peoia amaierako posizioan dago
-
         'Peoiak jateko diagonalean bat aurrera mugitzen da.
         gelaxkaHelburuak = taula.gelaxkaLortu(BereGelaxka, New Mugimendua With {.Aurrera = 1, .Eskubira = -1})
         If (gelaxkaHelburuak IsNot Nothing AndAlso gelaxkaHelburuak.Pieza IsNot Nothing _
             AndAlso gelaxkaHelburuak.Pieza.Kolorea <> Kolorea) Then
-            gelaxkaPosibleak.Add(gelaxkaHelburuak)
+            Dim gorde
+            If gelaxkaHelburuak.Pieza IsNot Nothing Then
+                gorde = gelaxkaHelburuak.Pieza
+            End If
+            gelaxkaHelburuak.Pieza = BereGelaxka.Pieza
+            BereGelaxka.Pieza = Nothing
+            If Not BereGelaxka.Taula.XakeaDaPiezaKentzean(gelaxkaHelburuak.Pieza.Kolorea) Then
+                gelaxkaPosibleak.Add(gelaxkaHelburuak)
+            End If
+            BereGelaxka.Pieza = gelaxkaHelburuak.Pieza
+            If gorde IsNot Nothing Then
+                gelaxkaHelburuak.Pieza = gorde
+            Else
+                gelaxkaHelburuak.Pieza = Nothing
+            End If
+            gorde = Nothing
         End If
         gelaxkaHelburuak =
             taula.gelaxkaLortu(BereGelaxka, New Mugimendua With {.Aurrera = 1, .Eskubira = 1})
         If gelaxkaHelburuak IsNot Nothing AndAlso gelaxkaHelburuak.Pieza IsNot Nothing _
             AndAlso gelaxkaHelburuak.Pieza.Kolorea <> Kolorea Then
-            gelaxkaPosibleak.Add(gelaxkaHelburuak)
+            Dim gorde2
+            If gelaxkaHelburuak.Pieza IsNot Nothing Then
+                gorde2 = gelaxkaHelburuak.Pieza
+            End If
+            gelaxkaHelburuak.Pieza = BereGelaxka.Pieza
+            BereGelaxka.Pieza = Nothing
+            If Not BereGelaxka.Taula.XakeaDaPiezaKentzean(gelaxkaHelburuak.Pieza.Kolorea) Then
+                gelaxkaPosibleak.Add(gelaxkaHelburuak)
+            End If
+            BereGelaxka.Pieza = gelaxkaHelburuak.Pieza
+            If gorde2 IsNot Nothing Then
+                gelaxkaHelburuak.Pieza = gorde2
+            Else
+                gelaxkaHelburuak.Pieza = Nothing
+            End If
+            gorde2 = Nothing
         End If
-
         Return gelaxkaPosibleak
 
     End Function

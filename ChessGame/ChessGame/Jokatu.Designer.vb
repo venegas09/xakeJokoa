@@ -93,6 +93,8 @@ Partial Class Jokatu
         Me.rbBeltza = New System.Windows.Forms.RadioButton()
         Me.txtTxanda = New System.Windows.Forms.Label()
         Me.txtXake = New System.Windows.Forms.Label()
+        Me.btnTablas = New System.Windows.Forms.Button()
+        Me.btnErrenditu = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -934,11 +936,32 @@ Partial Class Jokatu
         Me.txtXake.Size = New System.Drawing.Size(0, 13)
         Me.txtXake.TabIndex = 130
         '
+        'btnTablas
+        '
+        Me.btnTablas.Enabled = False
+        Me.btnTablas.Location = New System.Drawing.Point(823, 364)
+        Me.btnTablas.Name = "btnTablas"
+        Me.btnTablas.Size = New System.Drawing.Size(159, 23)
+        Me.btnTablas.TabIndex = 131
+        Me.btnTablas.Text = "Tablas"
+        Me.btnTablas.UseVisualStyleBackColor = True
+        '
+        'btnErrenditu
+        '
+        Me.btnErrenditu.Location = New System.Drawing.Point(824, 406)
+        Me.btnErrenditu.Name = "btnErrenditu"
+        Me.btnErrenditu.Size = New System.Drawing.Size(158, 23)
+        Me.btnErrenditu.TabIndex = 132
+        Me.btnErrenditu.Text = "Errenditu"
+        Me.btnErrenditu.UseVisualStyleBackColor = True
+        '
         'Jokatu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1053, 738)
+        Me.Controls.Add(Me.btnErrenditu)
+        Me.Controls.Add(Me.btnTablas)
         Me.Controls.Add(Me.txtXake)
         Me.Controls.Add(Me.txtTxanda)
         Me.Controls.Add(Me.GroupBox1)
@@ -1152,4 +1175,6 @@ Partial Class Jokatu
     Friend WithEvents rbTxuria As RadioButton
     Friend WithEvents txtTxanda As Label
     Friend WithEvents txtXake As Label
+    Friend WithEvents btnTablas As Button
+    Friend WithEvents btnErrenditu As Button
 End Class

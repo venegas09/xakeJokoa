@@ -101,6 +101,35 @@ Public Class XakeTaula
         Next
         Return False
     End Function
+    Public Function XakeaDaPiezaKentzean(k As Koloreak) As Boolean
+        Dim Txanda As Koloreak
+        Txanda = IIf(k = Koloreak.Txuria, Koloreak.Beltza, Koloreak.Txuria)
+        For Each laukia As Gelaxka In LortuErasotutakoGelaxkaGuztiak(Txanda)
+            If laukia.Pieza IsNot Nothing AndAlso laukia.Pieza.GetType.Name = "Erregea" AndAlso laukia.Pieza.Kolorea = k Then
+                Return True
+            End If
+        Next
+        Return False
+    End Function
+    Public Function MugimendurikEz(k As Koloreak) As Boolean
+        Dim kol As Koloreak
+        kol = IIf(k = Koloreak.Txuria, Koloreak.Beltza, Koloreak.Txuria)
+        Dim list As New List(Of Gelaxka)
+        For Each laukia As Gelaxka In Me
+            If laukia.Pieza IsNot Nothing AndAlso laukia.Pieza.Kolorea = kol Then
+                If laukia.Pieza.HelburuGelaxkak(laukia) IsNot Nothing Then
+                    For Each la As Gelaxka In laukia.Pieza.HelburuGelaxkak(laukia)
+                        list.Add(la)
+                    Next
+                End If
+            End If
+        Next
+        If list.Count = 0 Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
 
 
     ''' <summary>
