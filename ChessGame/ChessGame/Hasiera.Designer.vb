@@ -61,7 +61,7 @@ Partial Class Hasiera
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(582, 382)
+        Me.ClientSize = New System.Drawing.Size(645, 426)
         Me.Controls.Add(Me.btnIrekierak)
         Me.Controls.Add(Me.btnErronkak)
         Me.Controls.Add(Me.btnJokatu)

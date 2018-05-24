@@ -12,27 +12,24 @@ Public Enum PartidarenEgoera
     Berdinketa
 End Enum
 Public Structure Mugimendua
-    ''' <summary>
-    ''' Número de posiciones a avanzar hacia adelante
-    ''' Si se mueve hacia atrás el valor será negativo
-    ''' El movimiento se realizará hacia arriba o haciaa abajo en función
-    ''' del color de la pieza a la que se aplica
-    ''' </summary>
     Public Aurrera As Integer
-    ''' <summary>
-    ''' Número de posiciones a mover hacia la derecha
-    ''' Si el movimiento es hacia la izquierda el valor será negativo
-    ''' </summary>
+    'Aurrera joateko gelaxka, atzera juteko negatiboa bada
+    'Mugimendua gora edo behera egingo da, erabiltzen den kolorearen arabera
     Public Eskubira As Integer
+    'Eskubira joateko gelaxka, ezkerrera juteko negatiboa bada
+    'Mugimendua eskubira edo ezkerrera egingo da, erabiltzen den kolorearen arabera
 End Structure
 Public Class XakePartida
+
     Private _Taula As XakeTaula
     Private _Egoera As PartidarenEgoera
+
+    'Eraikitzailea
     Public Sub New()
         _Taula = New XakeTaula
     End Sub
 
-
+    'Taula propietatea
     Public Property Taula() As XakeTaula
         Get
             Return _Taula
@@ -42,7 +39,7 @@ Public Class XakePartida
         End Set
     End Property
 
-
+    'Egoera propietatea
     Public Property Egoera() As PartidarenEgoera
         Get
             Return _Egoera
@@ -51,11 +48,9 @@ Public Class XakePartida
             _Egoera = value
         End Set
     End Property
-    'ALDATU BEHAR DA
+    'Aukeratutako uneko gelaxka
     Private _selectedSquare As Gelaxka
-    ''' <summary>
-    ''' Devuelve la celda seleccionada por el usuario
-    ''' </summary>
+    'Aukeratuta dagoen gelaxka itzultzen du
     Public Property SelectedSquare() As Gelaxka
         Get
             Return _selectedSquare
@@ -65,18 +60,12 @@ Public Class XakePartida
         End Set
     End Property
 
-    ''' <summary>
-    ''' Inicia un nuevo juego disponiendo las piezas del color indicado
-    ''' en la parte superior del tablero
-    ''' </summary>
-    ''' <param name="playerOnTop">Color de las piezas de la parte superior del tablero</param>
+    'Jokua hasten du pasatako kolorea behean ipiniz
     Public Sub Start(playerOnTop As Koloreak)
         Taula.Init(playerOnTop)
-        ' Se establece el estado a través de la variable privada para que no se genere
-        ' el evento StateChanged ya que lo lanzamos manualmente
         Egoera = PartidarenEgoera.TxurieiItxoiten
     End Sub
-
+    'Aukeratu daitezken gelaxkak itzultzen ditu
     Public Function GetSquaresThatCanBeSelected() As List(Of Gelaxka)
         If Egoera <> PartidarenEgoera.TxurieiItxoiten And Egoera <> PartidarenEgoera.BeltzeiItxoiten Then
             Return Nothing
@@ -91,13 +80,7 @@ Public Class XakePartida
         End If
     End Function
 
-    ''' <summary>
-    ''' Selecciona la celda indicada como celda inicio del movimiento
-    ''' </summary>
-    ''' <param name="squareToSelect">Celda a seleccionar</param>
-    ''' <returns>true o false indicando si se ha realizado la selección
-    ''' El juego debe estar pendiente de iniciar un movimiento y la celda ser una de
-    ''' las celdas seleccionables</returns>
+    'Adierazitako gelaxka aukeratzen du
     Public Function SelectPiece(squareToSelect As Gelaxka) As Boolean
         If squareToSelect Is Nothing OrElse squareToSelect.Pieza Is Nothing Then Return False
         If Egoera = PartidarenEgoera.TxurieiItxoiten AndAlso squareToSelect.Pieza.Kolorea = Koloreak.Txuria _
@@ -110,11 +93,7 @@ Public Class XakePartida
         End If
     End Function
 
-    ''' <summary>
-    ''' Deselecciona la celda actualmente seleccionada
-    ''' </summary>
-    ''' <returns>true o false indicando si se ha realizado la deselección
-    ''' Para que exista celda seleccionada el juego debe estar pediente de finalizar movimiento</returns>
+    'Aukeratutako gelaxka aukeratu gabe uzten du.
     Public Function UnselectPiece() As Boolean
         If Egoera = PartidarenEgoera.TxuriakMugitzen OrElse Egoera = PartidarenEgoera.BeltzakMugitzen Then
             SelectedSquare = Nothing
@@ -125,26 +104,14 @@ Public Class XakePartida
             Return False
         End If
     End Function
-
-    ''' <summary>
-    ''' Devuelve las celdas que pueden ser destino del movimiento en función
-    ''' de la celda actualmente seleccionada.
-    ''' Los posibles destinos dependen de la pieza contenida en la celda seleccionada.
-    ''' </summary>
-    ''' <returns>Las celdas que pueden ser destino del movimiento</returns>
+    ' Helburu izan daitezken gelaxkak itzultzen ditu pasatako gelaxkaren arabera
     Public Function PosibleDestinationSquares(square As Gelaxka) As List(Of Gelaxka)
         Dim list As New List(Of Gelaxka)
         list = square.Pieza.HelburuGelaxkak(square)
         Return list
     End Function
 
-    ''' <summary>
-    ''' Ejecuta el movimiento desde la celda seleccionada a la 
-    ''' celda indicada
-    ''' </summary>
-    ''' <param name="squareToMove">Celda destino del movimiento</param>
-    ''' <returns>true o false en función de si se ha podido realizar
-    ''' el movimiento</returns>
+    'Mugimendua egiten du aukeratutako gelaxkatik adierazitako gelaxkara
     Public Function MoveToSquare(squareToMove As Gelaxka) As Boolean
         If SelectedSquare Is Nothing Then Return False
         Dim Enroke As Boolean
@@ -155,18 +122,4 @@ Public Class XakePartida
 
     End Function
 
-
-    ''' <returns>true o false indicando si el juego ha finalizado</returns>
-    Private Function CheckForWin() As Boolean
-        ' Si únicamente queda un rey el juego ha terminado
-        Dim kings As List(Of XakePieza) = Taula.Select(Function(s) s.Pieza) _
-            .Where(Function(p) p IsNot Nothing AndAlso TypeOf p Is Erregea)
-        If kings.Count() = 1 Then
-            Egoera = IIf(kings.First().Kolorea = Koloreak.Txuria _
-                      , PartidarenEgoera.TxuriakWin, PartidarenEgoera.BeltzakWin)
-            Return True
-        Else
-            Return False
-        End If
-    End Function
 End Class

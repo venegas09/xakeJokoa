@@ -29,6 +29,7 @@
                 gelaxkaPosibleak.Add(la)
             End If
         Next
+        'Enrokea, hau egiteko hainbat kondizio bete behar dira.
         If Not Mugituta Then
             Dim DorreaNon As Gelaxka
             If Kolorea = Koloreak.Txuria Then
@@ -102,6 +103,7 @@
         End If
         Return gelaxkaPosibleak
     End Function
+    'Erregeak erasotzen dituen gelaxkak lortzen dira.
     Public Overrides Function Erasotutakoak(BereGelaxka As Gelaxka) As List(Of Gelaxka)
         Dim gelaxkaPosibleak As New List(Of Gelaxka)
         For Each la As Gelaxka In ErasoPosibleak(mugimenduak, BereGelaxka)

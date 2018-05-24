@@ -5,39 +5,24 @@
     Private Sub Jokatu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-
+    'Hasteko botoia
     Private Sub btnHasi_Click(sender As Object, e As EventArgs) Handles btnHasi.Click
-        Garbitu()
         LaukiakGarbitu()
         If rbTxuria.Checked Then
             Partida.Start(Koloreak.Txuria)
             Hasieratu(Koloreak.Txuria)
+            pTableroa.BackgroundImage = My.Resources.XakeTaula
         Else
             Partida.Start(Koloreak.Beltza)
             Hasieratu(Koloreak.Beltza)
+            pTableroa.BackgroundImage = My.Resources.XakeTaula2
         End If
-        txtTxanda.Text = "Txurien txanda"
         btnHasi.Enabled = False
         btnTablas.Enabled = True
         btnErrenditu.Enabled = True
     End Sub
-    Public Sub Garbitu()
-        a1.Image = Nothing
-        b1.Image = Nothing
-        c1.Image = Nothing
-        d1.Image = Nothing
-        e1.Image = Nothing
-        h1.Image = Nothing
-        g1.Image = Nothing
-        f1.Image = Nothing
-        a2.Image = Nothing
-        b2.Image = Nothing
-        c2.Image = Nothing
-        d2.Image = Nothing
-        e2.Image = Nothing
-        f2.Image = Nothing
-        g2.Image = Nothing
-        h2.Image = Nothing
+    'Tableroaren irudiak hasieratzen ditu.
+    Public Sub Hasieratu(Kolorea As Koloreak)
         a3.Image = Nothing
         b4.Image = Nothing
         c3.Image = Nothing
@@ -70,25 +55,6 @@
         f6.Image = Nothing
         g6.Image = Nothing
         h6.Image = Nothing
-        a8.Image = Nothing
-        b8.Image = Nothing
-        c8.Image = Nothing
-        d8.Image = Nothing
-        e8.Image = Nothing
-        h8.Image = Nothing
-        g8.Image = Nothing
-        f8.Image = Nothing
-        a7.Image = Nothing
-        b7.Image = Nothing
-        c7.Image = Nothing
-        d7.Image = Nothing
-        e7.Image = Nothing
-        f7.Image = Nothing
-        g7.Image = Nothing
-        h7.Image = Nothing
-
-    End Sub
-    Public Sub Hasieratu(Kolorea As Koloreak)
         If Kolorea = Koloreak.Txuria Then
             a1.Image = My.Resources.Dorrea_T
             b1.Image = My.Resources.Zaldia_T
@@ -158,6 +124,7 @@
         End If
 
     End Sub
+    'MarraztutakoGelaxka listan dauden gelaxkak margotzen ditu.
     Public Sub Marraztu()
         For Each laukia As Gelaxka In MarraztutakoGelaxkak
             '1 ILARA
@@ -362,6 +329,7 @@
             End If
         Next
     End Sub
+    'Marraztuta dauden gelaxkak margotzen ditu.
     Public Sub MarrazkiaKendu()
         For Each laukia As Gelaxka In MarraztutakoGelaxkak
             '1 ILARA
@@ -566,6 +534,7 @@
             End If
         Next
     End Sub
+    'Laukiak hasierako egoeran margotuta uzten ditu
     Public Sub LaukiakGarbitu()
         For Each laukia As Gelaxka In Partida.Taula
             '1 ILARA
@@ -770,6 +739,7 @@
             End If
         Next
     End Sub
+    'Dorrea dagokion tokian jartzen du
     Public Sub DorreaJarri(laukia As Gelaxka)
         If laukia.Ilara = 1 And laukia.Zutabea = 3 Then
             Dim irudia As String = String.Format("{0}_{1}", "Dorrea", IIf([Enum].GetName(GetType(Koloreak), laukia.Pieza.Kolorea) = [Enum].GetName(GetType(Koloreak), Koloreak.Txuria), "T", "B"))
@@ -805,6 +775,7 @@
             f8.Image = My.Resources.ResourceManager.GetObject(irudia)
         End If
     End Sub
+    'Dorrea dagoen tokitik kentzen du
     Public Sub DorreaKendu(Ilara As Integer, Zutabea As Integer)
         '1 ILARA
         If Ilara = 1 And Zutabea = 1 Then
@@ -822,11 +793,13 @@
             h8.Image = Nothing
         End If
     End Sub
+    'Pieza mugitu egiten du tableroan
     Public Sub PiezaMugitu(sender As Object, aukeratutakoGelaxka As Gelaxka)
         Dim irudia As String = String.Format("{0}_{1}", aukeratutakoGelaxka.Pieza.GetType().Name, IIf([Enum].GetName(GetType(Koloreak), aukeratutakoGelaxka.Pieza.Kolorea) = [Enum].GetName(GetType(Koloreak), Koloreak.Txuria), "T", "B"))
         sender.Image = My.Resources.ResourceManager.GetObject(irudia)
         AukeratutakoBox.Image = Nothing
     End Sub
+    'Enrokeko dorrea mugitzen du
     Public Sub DorreaMugitu(aukeratutakoGelaxka As Gelaxka)
         Dim taula = aukeratutakoGelaxka.Taula
         If aukeratutakoGelaxka.Ilara = 1 Then
@@ -866,6 +839,7 @@
             End If
         End If
     End Sub
+    'Dagokion gelaxka tratatzen du partidaren egoeraren arabera
     Public Sub Tratatu(i As Integer, z As Integer, sender As Object)
         Dim aukeratutakoGelaxka As Gelaxka = Partida.Taula.gelaxkaLortu(i, z)
         If Partida.Egoera = PartidarenEgoera.TxuriakWin Or Partida.Egoera = PartidarenEgoera.BeltzakWin Or Partida.Egoera = PartidarenEgoera.Berdinketa Then
@@ -897,6 +871,7 @@
                         DorreaMugitu(aukeratutakoGelaxka)
                     End If
                     PiezaMugitu(sender, aukeratutakoGelaxka)
+                    txtTxanda.Text = ""
                     If Partida.Taula.XakeaDa(Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea) Then
                         txtTxanda.Text = "Xake"
                         If Partida.Taula.MugimendurikEz(Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea) Then
@@ -905,28 +880,18 @@
                                 Partida.Egoera = PartidarenEgoera.TxuriakWin
                                 txtTxanda.Text = "Txuriak Irabazi du"
                                 btnTablas.Enabled = False
+                                btnErrenditu.Enabled = False
                             Else
                                 Partida.Egoera = PartidarenEgoera.BeltzakWin
                                 txtTxanda.Text = "Beltzak irabazi du"
                                 btnTablas.Enabled = False
+                                btnErrenditu.Enabled = False
                             End If
-                            'Else
-                            ' If Partida.Egoera = PartidarenEgoera.BeltzeiItxoiten Then
-                            'txtTxanda.Text = "Beltzen txanda da"
-                            'Else
-                            'txtTxanda.Text = "Txurien txanda da"
-                            'End If
                         End If
                     Else
                         If Partida.Taula.MugimendurikEz(Partida.Taula.gelaxkaLortu(i, z).Pieza.Kolorea) Then
                             Partida.Egoera = PartidarenEgoera.Berdinketa
                             txtTxanda.Text = "Erregea itota dago"
-                            'Else
-                            ' If Partida.Egoera = PartidarenEgoera.BeltzeiItxoiten Then
-                            'txtTxanda.Text = "Beltzen txanda da"
-                            'Else
-                            'txtTxanda.Text = "Txurien txanda da"
-                            'End If
                         End If
                     End If
 
@@ -939,6 +904,7 @@
             End If
         End If
     End Sub
+    'Aukeratu den gelaxka horiz margotzen du.
     Public Sub MarraztuAukeratutakoGelaxka()
         If ((Partida.SelectedSquare.Ilara + Partida.SelectedSquare.Zutabea) Mod 2 = 0) Then
             AukeratutakoBox.BackgroundImage = My.Resources.AukeratuB
@@ -946,6 +912,7 @@
             AukeratutakoBox.BackgroundImage = My.Resources.AukeratuT
         End If
     End Sub
+    'Aukeratuta zegoen gelaxkari kolore horia kentzen dio
     Public Sub EzabatuAukeratutakoGelaxka()
         If ((Partida.SelectedSquare.Ilara + Partida.SelectedSquare.Zutabea) Mod 2 = 0) Then
             AukeratutakoBox.BackgroundImage = My.Resources.gelaxkaBeltza
@@ -953,6 +920,7 @@
             AukeratutakoBox.BackgroundImage = My.Resources.gelaxkaTxuria
         End If
     End Sub
+
     Private Sub a1_Click(sender As Object, e As EventArgs) Handles a1.Click
         Tratatu(1, 1, sender)
     End Sub
@@ -1210,14 +1178,15 @@
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles txtTxanda.Click
 
     End Sub
-    Private Sub txtTablas_Click(sender As Object, e As EventArgs) Handles btnTablas.Click
+    'Tablas botoia sakatzean partida amaituko da berdinketa emaitzarekin
+    Private Sub btnTablas_Click(sender As Object, e As EventArgs) Handles btnTablas.Click
         Partida.Egoera = PartidarenEgoera.Berdinketa
         btnHasi.Enabled = True
         txtTxanda.Text = "Tablas adostu da"
         btnTablas.Enabled = False
         btnErrenditu.Enabled = False
     End Sub
-
+    'Errenditzeko aukera eskaintzen du.
     Private Sub btnErrenditu_Click(sender As Object, e As EventArgs) Handles btnErrenditu.Click
 
         btnHasi.Enabled = True
@@ -1232,4 +1201,5 @@
         btnTablas.Enabled = False
         btnErrenditu.Enabled = False
     End Sub
+
 End Class

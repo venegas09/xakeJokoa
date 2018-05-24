@@ -173,6 +173,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property fondoa() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fondoa", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property gelaxkaBeltza() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("gelaxkaBeltza", resourceCulture)
@@ -236,6 +246,16 @@ Namespace My.Resources
         Friend ReadOnly Property XakeTaula() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("XakeTaula", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property XakeTaula2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("XakeTaula2", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

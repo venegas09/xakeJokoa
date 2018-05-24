@@ -100,6 +100,7 @@
 
     End Function
 
+    'Peoiak erasotzen dituen gelaxkak
     Public Overrides Function Erasotutakoak(BereGelaxka As Gelaxka) As List(Of Gelaxka)
         Dim taula = BereGelaxka.Taula
         Dim gelaxkaPosibleak As New List(Of Gelaxka)

@@ -77,6 +77,11 @@ ChessGame
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ChessGame.My.Resources.Resources.fondoa">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ChessGame.My.Resources.Resources.gelaxkaBeltza">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -112,6 +117,11 @@ ChessGame
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ChessGame.My.Resources.Resources.XakeTaula2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ChessGame.My.Resources.Resources.Zaldia_B">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -121,88 +131,6 @@ ChessGame
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
-</member>
-<member name="F:ChessGame.Mugimendua.Aurrera">
- <summary>
- Número de posiciones a avanzar hacia adelante
- Si se mueve hacia atrás el valor será negativo
- El movimiento se realizará hacia arriba o haciaa abajo en función
- del color de la pieza a la que se aplica
- </summary>
-</member>
-<member name="F:ChessGame.Mugimendua.Eskubira">
- <summary>
- Número de posiciones a mover hacia la derecha
- Si el movimiento es hacia la izquierda el valor será negativo
- </summary>
-</member>
-<member name="P:ChessGame.XakePartida.SelectedSquare">
- <summary>
- Devuelve la celda seleccionada por el usuario
- </summary>
-</member>
-<member name="M:ChessGame.XakePartida.Start(ChessGame.Koloreak)">
- <summary>
- Inicia un nuevo juego disponiendo las piezas del color indicado
- en la parte superior del tablero
- </summary>
- <param name="playerOnTop">Color de las piezas de la parte superior del tablero</param>
-</member>
-<member name="M:ChessGame.XakePartida.SelectPiece(ChessGame.Gelaxka)">
- <summary>
- Selecciona la celda indicada como celda inicio del movimiento
- </summary>
- <param name="squareToSelect">Celda a seleccionar</param>
- <returns>true o false indicando si se ha realizado la selección
- El juego debe estar pendiente de iniciar un movimiento y la celda ser una de
- las celdas seleccionables</returns>
-</member>
-<member name="M:ChessGame.XakePartida.UnselectPiece">
- <summary>
- Deselecciona la celda actualmente seleccionada
- </summary>
- <returns>true o false indicando si se ha realizado la deselección
- Para que exista celda seleccionada el juego debe estar pediente de finalizar movimiento</returns>
-</member>
-<member name="M:ChessGame.XakePartida.PosibleDestinationSquares(ChessGame.Gelaxka)">
- <summary>
- Devuelve las celdas que pueden ser destino del movimiento en función
- de la celda actualmente seleccionada.
- Los posibles destinos dependen de la pieza contenida en la celda seleccionada.
- </summary>
- <returns>Las celdas que pueden ser destino del movimiento</returns>
-</member>
-<member name="M:ChessGame.XakePartida.MoveToSquare(ChessGame.Gelaxka)">
- <summary>
- Ejecuta el movimiento desde la celda seleccionada a la 
- celda indicada
- </summary>
- <param name="squareToMove">Celda destino del movimiento</param>
- <returns>true o false en función de si se ha podido realizar
- el movimiento</returns>
-</member>
-<member name="M:ChessGame.XakePartida.CheckForWin">
- <returns>true o false indicando si el juego ha finalizado</returns>
-</member>
-<member name="M:ChessGame.XakeTaula.Init(ChessGame.Koloreak)">
- <summary>
- Inicializa el tablero de juego colocando las piezas en su posición inicial
- </summary>
- <param name="colorOfTopPlayer">Color de las piezas a colocar en la parte
- superior del tablero</param>
-</member>
-<member name="M:ChessGame.XakeTaula.Move(ChessGame.Gelaxka,ChessGame.Gelaxka)">
- <summary>
- Mueve una pieza de una celda a otra
- </summary>
- <param name="fromSquare">Celda desde la que se realiza el movimiento</param>
- <param name="toSquare">Celda destino del movimiento</param>
- <returns>true o false indicando si el movimiento se ha realizado</returns>
-</member>
-<member name="M:ChessGame.XakeTaula.ClearPieces">
- <summary>
- Elimmina todas las piezas del tablero
- </summary>
 </member>
 </members>
 </doc>

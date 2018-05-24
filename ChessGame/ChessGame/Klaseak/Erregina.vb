@@ -23,6 +23,8 @@
         Return gelaxkaPosibleak
 
     End Function
+
+    'Erreginak erasotzen dituen gelaxkak
     Public Overrides Function Erasotutakoak(BereGelaxka As Gelaxka) As List(Of Gelaxka)
         If BereGelaxka Is Nothing Then Return Nothing
 

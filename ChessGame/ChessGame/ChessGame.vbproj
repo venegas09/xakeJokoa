@@ -185,6 +185,7 @@
     <None Include="resources\Alfila_B.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="resources\fondoa.jpg" />
     <Content Include="resources\Alfila_T.png" />
     <None Include="resources\AukeratuT.JPG" />
     <None Include="resources\AukeratuB.JPG" />
@@ -192,10 +193,9 @@
     <None Include="resources\posibleB.JPG" />
     <None Include="resources\posibleT.JPG" />
     <Content Include="resources\XakeTaula.png" />
+    <Content Include="resources\XakeTaula2.png" />
     <Content Include="resources\Zaldia_B.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Erroreak\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

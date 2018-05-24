@@ -22,8 +22,14 @@ Partial Class Jokatu
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnHasi = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.rbTxuria = New System.Windows.Forms.RadioButton()
+        Me.rbBeltza = New System.Windows.Forms.RadioButton()
+        Me.txtTxanda = New System.Windows.Forms.Label()
+        Me.txtXake = New System.Windows.Forms.Label()
+        Me.btnTablas = New System.Windows.Forms.Button()
+        Me.btnErrenditu = New System.Windows.Forms.Button()
         Me.h2 = New System.Windows.Forms.PictureBox()
         Me.h1 = New System.Windows.Forms.PictureBox()
         Me.h4 = New System.Windows.Forms.PictureBox()
@@ -88,14 +94,8 @@ Partial Class Jokatu
         Me.a6 = New System.Windows.Forms.PictureBox()
         Me.a7 = New System.Windows.Forms.PictureBox()
         Me.a8 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.rbTxuria = New System.Windows.Forms.RadioButton()
-        Me.rbBeltza = New System.Windows.Forms.RadioButton()
-        Me.txtTxanda = New System.Windows.Forms.Label()
-        Me.txtXake = New System.Windows.Forms.Label()
-        Me.btnTablas = New System.Windows.Forms.Button()
-        Me.btnErrenditu = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pTableroa = New System.Windows.Forms.PictureBox()
+        Me.GroupBox1.SuspendLayout()
         CType(Me.h2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.h4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -160,18 +160,8 @@ Partial Class Jokatu
         CType(Me.a6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.a7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.a8, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
+        CType(Me.pTableroa, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.ChessGame.My.Resources.Resources.XakeTaula
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(21, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(743, 722)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
         '
         'btnHasi
         '
@@ -181,6 +171,75 @@ Partial Class Jokatu
         Me.btnHasi.TabIndex = 3
         Me.btnHasi.Text = "Hasi"
         Me.btnHasi.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.rbTxuria)
+        Me.GroupBox1.Controls.Add(Me.rbBeltza)
+        Me.GroupBox1.Location = New System.Drawing.Point(806, 86)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(200, 85)
+        Me.GroupBox1.TabIndex = 128
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Kolorea"
+        '
+        'rbTxuria
+        '
+        Me.rbTxuria.AutoSize = True
+        Me.rbTxuria.Checked = True
+        Me.rbTxuria.Location = New System.Drawing.Point(33, 20)
+        Me.rbTxuria.Name = "rbTxuria"
+        Me.rbTxuria.Size = New System.Drawing.Size(60, 17)
+        Me.rbTxuria.TabIndex = 2
+        Me.rbTxuria.TabStop = True
+        Me.rbTxuria.Text = "Txuriak"
+        Me.rbTxuria.UseVisualStyleBackColor = True
+        '
+        'rbBeltza
+        '
+        Me.rbBeltza.AutoSize = True
+        Me.rbBeltza.Location = New System.Drawing.Point(33, 53)
+        Me.rbBeltza.Name = "rbBeltza"
+        Me.rbBeltza.Size = New System.Drawing.Size(54, 17)
+        Me.rbBeltza.TabIndex = 1
+        Me.rbBeltza.TabStop = True
+        Me.rbBeltza.Text = "Beltza"
+        Me.rbBeltza.UseVisualStyleBackColor = True
+        '
+        'txtTxanda
+        '
+        Me.txtTxanda.AutoSize = True
+        Me.txtTxanda.Location = New System.Drawing.Point(869, 204)
+        Me.txtTxanda.Name = "txtTxanda"
+        Me.txtTxanda.Size = New System.Drawing.Size(0, 13)
+        Me.txtTxanda.TabIndex = 129
+        '
+        'txtXake
+        '
+        Me.txtXake.AutoSize = True
+        Me.txtXake.Location = New System.Drawing.Point(833, 366)
+        Me.txtXake.Name = "txtXake"
+        Me.txtXake.Size = New System.Drawing.Size(0, 13)
+        Me.txtXake.TabIndex = 130
+        '
+        'btnTablas
+        '
+        Me.btnTablas.Enabled = False
+        Me.btnTablas.Location = New System.Drawing.Point(823, 364)
+        Me.btnTablas.Name = "btnTablas"
+        Me.btnTablas.Size = New System.Drawing.Size(159, 23)
+        Me.btnTablas.TabIndex = 131
+        Me.btnTablas.Text = "Tablas"
+        Me.btnTablas.UseVisualStyleBackColor = True
+        '
+        'btnErrenditu
+        '
+        Me.btnErrenditu.Location = New System.Drawing.Point(824, 406)
+        Me.btnErrenditu.Name = "btnErrenditu"
+        Me.btnErrenditu.Size = New System.Drawing.Size(158, 23)
+        Me.btnErrenditu.TabIndex = 132
+        Me.btnErrenditu.Text = "Errenditu"
+        Me.btnErrenditu.UseVisualStyleBackColor = True
         '
         'h2
         '
@@ -886,74 +945,15 @@ Partial Class Jokatu
         Me.a8.TabIndex = 64
         Me.a8.TabStop = False
         '
-        'GroupBox1
+        'pTableroa
         '
-        Me.GroupBox1.Controls.Add(Me.rbTxuria)
-        Me.GroupBox1.Controls.Add(Me.rbBeltza)
-        Me.GroupBox1.Location = New System.Drawing.Point(806, 86)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(200, 85)
-        Me.GroupBox1.TabIndex = 128
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Kolorea"
-        '
-        'rbTxuria
-        '
-        Me.rbTxuria.AutoSize = True
-        Me.rbTxuria.Checked = True
-        Me.rbTxuria.Location = New System.Drawing.Point(33, 20)
-        Me.rbTxuria.Name = "rbTxuria"
-        Me.rbTxuria.Size = New System.Drawing.Size(60, 17)
-        Me.rbTxuria.TabIndex = 2
-        Me.rbTxuria.TabStop = True
-        Me.rbTxuria.Text = "Txuriak"
-        Me.rbTxuria.UseVisualStyleBackColor = True
-        '
-        'rbBeltza
-        '
-        Me.rbBeltza.AutoSize = True
-        Me.rbBeltza.Location = New System.Drawing.Point(33, 53)
-        Me.rbBeltza.Name = "rbBeltza"
-        Me.rbBeltza.Size = New System.Drawing.Size(54, 17)
-        Me.rbBeltza.TabIndex = 1
-        Me.rbBeltza.TabStop = True
-        Me.rbBeltza.Text = "Beltza"
-        Me.rbBeltza.UseVisualStyleBackColor = True
-        '
-        'txtTxanda
-        '
-        Me.txtTxanda.AutoSize = True
-        Me.txtTxanda.Location = New System.Drawing.Point(869, 204)
-        Me.txtTxanda.Name = "txtTxanda"
-        Me.txtTxanda.Size = New System.Drawing.Size(0, 13)
-        Me.txtTxanda.TabIndex = 129
-        '
-        'txtXake
-        '
-        Me.txtXake.AutoSize = True
-        Me.txtXake.Location = New System.Drawing.Point(833, 366)
-        Me.txtXake.Name = "txtXake"
-        Me.txtXake.Size = New System.Drawing.Size(0, 13)
-        Me.txtXake.TabIndex = 130
-        '
-        'btnTablas
-        '
-        Me.btnTablas.Enabled = False
-        Me.btnTablas.Location = New System.Drawing.Point(823, 364)
-        Me.btnTablas.Name = "btnTablas"
-        Me.btnTablas.Size = New System.Drawing.Size(159, 23)
-        Me.btnTablas.TabIndex = 131
-        Me.btnTablas.Text = "Tablas"
-        Me.btnTablas.UseVisualStyleBackColor = True
-        '
-        'btnErrenditu
-        '
-        Me.btnErrenditu.Location = New System.Drawing.Point(824, 406)
-        Me.btnErrenditu.Name = "btnErrenditu"
-        Me.btnErrenditu.Size = New System.Drawing.Size(158, 23)
-        Me.btnErrenditu.TabIndex = 132
-        Me.btnErrenditu.Text = "Errenditu"
-        Me.btnErrenditu.UseVisualStyleBackColor = True
+        Me.pTableroa.BackgroundImage = Global.ChessGame.My.Resources.Resources.XakeTaula
+        Me.pTableroa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.pTableroa.Location = New System.Drawing.Point(21, 4)
+        Me.pTableroa.Name = "pTableroa"
+        Me.pTableroa.Size = New System.Drawing.Size(743, 722)
+        Me.pTableroa.TabIndex = 1
+        Me.pTableroa.TabStop = False
         '
         'Jokatu
         '
@@ -1030,10 +1030,11 @@ Partial Class Jokatu
         Me.Controls.Add(Me.a7)
         Me.Controls.Add(Me.a8)
         Me.Controls.Add(Me.btnHasi)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.pTableroa)
         Me.Name = "Jokatu"
         Me.Text = "Jokatu"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         CType(Me.h2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.h1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.h4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1098,13 +1099,12 @@ Partial Class Jokatu
         CType(Me.a6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.a7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.a8, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        CType(Me.pTableroa, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents pTableroa As PictureBox
     Friend WithEvents btnHasi As Button
     Friend WithEvents h2 As PictureBox
     Friend WithEvents h1 As PictureBox

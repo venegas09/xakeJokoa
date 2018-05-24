@@ -21,7 +21,7 @@
     Property Zutabea As Integer
     Private NirePieza As XakePieza
 
-    'NirePieza propietatea
+    'NirePieza propietatea, gelaxkan dagoen pieza lortzeko edo pieza esleitzeko.
     Public Property Pieza() As XakePieza
         Get
             Return NirePieza
